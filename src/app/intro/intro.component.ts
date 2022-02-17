@@ -21,7 +21,7 @@ export class IntroComponent implements OnInit {
       logo.classList.remove("redGlow");
       logo.classList.remove("initialLogo");
       logo.style.display = "none";
-    }, 2000);
+    }, 2100);
   }
 
 }

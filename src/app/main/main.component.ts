@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  currentPage: string = "ep";
-  pageList: string[] = ["ep", "streaming", "download", "about", "live", "shop"];
+  currentPage: string = "discography";
+  pageList: string[] = ["discography", "streaming", "download", "about", "contact"];
   
   constructor() { }
 
@@ -20,17 +20,18 @@ export class MainComponent implements OnInit {
   startUpAnimation() {
     var logo = document.getElementById("introLogo");
     var body = document.getElementById("mainBody");
-    var menuItem = document.getElementById("ep");
+    var menuItem = document.getElementById("discography");
 
     //TODO DELETE
-    //logo.style.display = "none";
-    body.style.display = "none";
-    //menuItem.classList.add("selected");
+    logo.style.display = "none";
+    //body.style.display = "none";
+
+    menuItem.classList.add("selected");
 
     setTimeout(function() {
       logo.style.display = "none";
       body.style.display = "block";
-    }, 2000);
+    }, 2500);
   }
 
   changePage(id: string) {

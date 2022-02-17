@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AlbumComponent } from './album/album.component';
 import { MainComponent } from './main/main.component';
 import { IntroComponent } from './intro/intro.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AlbumComponent,
     MainComponent,
-    IntroComponent
+    IntroComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

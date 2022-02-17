@@ -16,11 +16,11 @@
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
 	
-	animation: staticAnimation 6s infinite, fadeIn 2s 1;	
+	animation: staticAnimation 6s infinite, fadeIn 3s 1;	
 }
 
 .redGlow {
-    animation: staticAnimation 2s infinite, redGlowAnimation 2s 1, fadeIn 1s 1;	
+    animation: staticAnimation 2s infinite, redGlowAnimation 2s 1, fadeIn 3s 1;	
 }
 
 .initialLogo {
