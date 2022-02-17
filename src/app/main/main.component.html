@@ -1,0 +1,25 @@
+<app-intro id="introLogo"></app-intro>
+
+<div id="mainBody">
+    <div>
+        <div id="sidebar" style="min-width: 35vw;">
+            <h2 class="logo">Duelist</h2>
+
+            <hr>
+
+            <div class="center menu">
+                <p class="menuItem" id="ep" (click)="changePage('ep')">A Fall From Grace EP</p> <br>
+                <p class="menuItem" id="streaming" (click)="changePage('streaming')">Streaming & Media</p> <br>
+                <p class="menuItem" id="download" (click)="changePage('download')">Download Songs</p> <br>
+                <p class="menuItem" id="about" (click)="changePage('about')">About The Band</p> <br>
+                <p class="menuItem" id="live" (click)="changePage('live')">Live Schedule</p> <br>
+                <p class="menuItem" id="shop" (click)="changePage('shop')">Shop</p>
+            </div>
+        </div>
+        <div style="margin-left: 35vw; min-width: 60vw;">
+            <div>
+                <app-album *ngIf="currentPage == 'ep'"></app-album>
+            </div>
+        </div>
+
+    </div>

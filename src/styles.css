@@ -1,0 +1,9 @@
+* {
+    margin: 0 auto;
+	cursor: url('cursor.png'), auto;
+}
+
+html {
+	background-color: #0a0d14;	
+	color: #FFFFFF;
+}

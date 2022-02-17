@@ -1,0 +1,139 @@
+@font-face {
+	font-family: teutonic;
+	src: url('../../teutonic/teutonic1.ttf');
+}
+
+* {
+    cursor: url('../../cursor.png'), auto;
+}
+
+.logo {
+	font-family: teutonic;
+	
+	color: #FFFFFF;
+	
+	text-shadow: 3px 3px 3px #000000,
+				 6px 6px 10px gray;
+
+    font-size: 100px;
+
+    margin-left: 8vw;
+
+    padding-bottom: 3vh;
+				 
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+	
+	animation: staticAnimation 6s infinite;	
+}
+
+hr {
+    border: 0;
+    height: 3px; 
+    background-image: linear-gradient(to right, #0a0d14, #7e0000, #0a0d14); 
+    animation: lineAnimation 6s infinite;	
+}
+
+#sidebar {
+    position: fixed;
+    top: 15vh;
+}
+
+#mainBody {
+    animation: fadeIn 2s 1;
+}
+
+.center {
+    text-align: center;
+}
+
+.menu {
+    margin-top: 3vh;
+    width: 20vw;
+    /*animation: colorChangeAnimation 5s infinite;*/
+    filter: drop-shadow(0px 30px 60px red);
+}
+
+.menuItem {
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+
+    text-shadow: 3px 3px 3px #000000,
+    6px 6px 10px gray;
+}
+
+.menuItem:hover {
+    text-shadow: 3px 3px 3px #7e0000,
+    6px 6px 10px gray;
+
+    transform: translate(1px, 1px);
+
+    color: #F19A3E;
+}
+
+.selected {
+    color: #FE5D26;
+}
+
+/*@keyframes colorChangeAnimation {
+    0% {
+        filter: drop-shadow(0px 30px 60px red);
+    }
+    50% {
+        filter: drop-shadow(0px 30px 80px red);
+    }
+    100% {
+        filter: drop-shadow(0px 30px 60px red);
+    }
+}*/
+
+@keyframes lineAnimation {
+    0% {
+        width: 30vw;
+    }
+    50% {
+        width: 15vw;
+    }
+    100% {
+        width: 30vw;
+    }
+}
+
+@keyframes staticAnimation {
+	0%, 90%   {
+			text-shadow: 3px 3px 3px #000000,
+				6px 6px 10px gray;
+			transform: translate(0, 0);
+		 }
+	96%, 97%   {
+			text-shadow: 3px 3px 3px red,
+				 6px 6px 10px gray;
+			transform: translate(-5px, 0);
+		 }
+	98%, 99%   {
+		
+			text-shadow: 7px 3px 3px cyan,
+				 6px 6px 10px gray;
+			transform: translate(5px, 0);
+			
+		 }
+	100%   {
+			text-shadow: 0px 3px 3px yellow,
+				 6px 6px 10px gray;
+			transform: translate(-5px, 0);
+		 }
+}
+
+@keyframes fadeInText {
+	from {
+		transform: translate(-80px, 0);
+		opacity: 0;
+	}
+	
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}
