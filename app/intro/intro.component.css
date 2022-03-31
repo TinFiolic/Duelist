@@ -1,0 +1,99 @@
+@font-face {
+	font-family: teutonic;
+	src: url('../../teutonic/teutonic1.ttf');
+}
+
+.logo {
+	font-family: teutonic;
+	
+	color: #FFFFFF;
+	
+	text-shadow: 3px 3px 3px #000000,
+				 6px 6px 10px gray;
+				 
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+	
+	animation: staticAnimation 6s infinite, fadeIn 3s 1;	
+}
+
+.redGlow {
+    animation: staticAnimation 2s infinite, redGlowAnimation 2s 1, fadeIn 3s 1;	
+}
+
+.initialLogo {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30vh;
+
+    font-size: 8vw;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes staticAnimation {
+	0%, 90%   {
+			text-shadow: 3px 3px 3px #000000,
+				6px 6px 10px gray;
+			transform: translate(0, 0);
+		 }
+	96%, 97%   {
+			text-shadow: 3px 3px 3px red,
+				 6px 6px 10px gray;
+			transform: translate(-5px, 0);
+		 }
+	98%, 99%   {
+		
+			text-shadow: 7px 3px 3px cyan,
+				 6px 6px 10px gray;
+			transform: translate(5px, 0);
+			
+		 }
+	100%   {
+			text-shadow: 0px 3px 3px yellow,
+				 6px 6px 10px gray;
+			transform: translate(-5px, 0);
+		 }
+}
+
+@keyframes redGlowAnimation {
+	0%, 90%   {
+			filter: drop-shadow(0px 0px 100px red);
+            opacity: 1;
+		 }
+	96%, 97%   {
+			filter: drop-shadow(-50px 0px 100px red);
+            opacity: 0.7;
+		 }
+	98%, 99%   {
+			filter: drop-shadow(50px 0px 100px red);
+            opacity: 0.4;
+		 }
+	100%   {
+			filter: drop-shadow(-50px 0px 100px red);
+            opacity: 0;
+		 }
+}
+
+@keyframes fadeInText {
+	from {
+		transform: translate(-80px, 0);
+		opacity: 0;
+	}
+	
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+}

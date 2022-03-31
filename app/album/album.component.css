@@ -1,0 +1,37 @@
+.title {
+    color: #FE5D26;
+
+    font-family: 'Open Sans Condensed';
+    font-size: 70px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+   margin-right: 10vw;
+   margin-top: 6vh;
+}
+
+.album {
+    transform: skewY(10deg); 
+    margin-top: 5vh;
+    box-shadow: 1px 1px 0px #999,
+                2px 2px 0px #999,
+                3px 3px 0px #999,
+                4px 4px 0px #999,
+                5px 5px 0px #999,
+                6px 6px 0px #999,
+                7px 7px 0px #999,
+                8px 8px 0px #999,
+                9px 9px 0px #999;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}

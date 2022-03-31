@@ -1,0 +1,23 @@
+<app-intro id="introLogo"></app-intro>
+
+<div id="mainBody">
+    <div>
+        <div id="sidebar" style="min-width: 35vw;">
+            <h2 class="logo center">Duelist</h2>
+            <hr>
+            <div class="center menu">
+                <p class="menuItem" id="discography" (click)="changePage('discography')">Discography</p> <br>
+                <p class="menuItem" id="streaming" (click)="changePage('streaming')">Streaming & Media</p> <br>
+                <p class="menuItem" id="download" (click)="changePage('download')">Download Songs</p> <br>
+                <p class="menuItem" id="about" (click)="changePage('about')">About The Band</p> <br>
+                <p class="menuItem" id="contact" (click)="changePage('contact')">Contact</p>
+            </div>
+        </div>
+        <div style="min-width: 60vw;" class="content">
+            <div>
+                <app-album *ngIf="currentPage == 'discography'"></app-album>             
+                <app-footer></app-footer>
+            </div>
+        </div>
+
+    </div>
