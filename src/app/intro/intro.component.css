@@ -28,9 +28,9 @@
     justify-content: center;
     align-items: center;
 
-    margin-top: 35vh;
+    margin-top: 30vh;
 
-    font-size: 160px;
+    font-size: 8vw;
 }
 
 @keyframes fadeIn {

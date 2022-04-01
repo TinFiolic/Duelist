@@ -23,8 +23,8 @@ export class MainComponent implements OnInit {
     var menuItem = document.getElementById("discography");
 
     //TODO DELETE
-    logo.style.display = "none";
-    //body.style.display = "none";
+    //logo.style.display = "none";
+    body.style.display = "none";
 
     menuItem.classList.add("selected");
 

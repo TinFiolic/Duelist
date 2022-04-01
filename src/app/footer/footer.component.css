@@ -16,7 +16,7 @@
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, #0a0d14, #7e0000, #0a0d14);
+    background-image: linear-gradient(to right, rgba(10, 13, 20, 0.205), #7e0000, rgba(10, 13, 20, 0.205));
 }
 
  a:link {
