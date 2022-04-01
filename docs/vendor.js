@@ -3063,6 +3063,649 @@ function zip(...observables) {
 
 /***/ }),
 
+/***/ "GnHf":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/ang-music-player/__ivy_ngcc__/fesm2015/ang-music-player.js ***!
+  \*********************************************************************************/
+/*! exports provided: AngMusicPlayerComponent, AngMusicPlayerModule, AngMusicPlayerService, ɵa, ɵb */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AngMusicPlayerComponent", function() { return AngMusicPlayerComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AngMusicPlayerModule", function() { return AngMusicPlayerModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AngMusicPlayerService", function() { return AngMusicPlayerService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return AudioPlyerOptions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return TimeConversionPipe; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "qCKp");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "ofXK");
+
+
+
+
+
+
+
+const _c0 = ["audioPlayer"];
+function AngMusicPlayerComponent_div_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Loading....");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function AngMusicPlayerComponent_div_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "No audio Found !");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function AngMusicPlayerComponent_div_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx_r3.selectedAudio == null ? null : ctx_r3.selectedAudio.cover, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+const _c1 = function (a0) { return { "color": a0 }; };
+function AngMusicPlayerComponent_div_6_marquee_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "marquee", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](2, _c1, ctx_r5.audioTitleColor));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r5.selectedAudio == null ? null : ctx_r5.selectedAudio.title, "");
+} }
+function AngMusicPlayerComponent_div_6_p_12_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](2, _c1, ctx_r6.audioTitleColor));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r6.selectedAudio == null ? null : ctx_r6.selectedAudio.title, "");
+} }
+const _c2 = function (a0) { return { "fill": a0 }; };
+function AngMusicPlayerComponent_div_6__svg_svg_14_Template(rf, ctx) { if (rf & 1) {
+    const _r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AngMusicPlayerComponent_div_6__svg_svg_14_Template__svg_svg_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r16); const ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r15.repeatAudio(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "title");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "repeat-on");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "path", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "path", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](1, _c2, ctx_r7.repeatButtonColor));
+} }
+function AngMusicPlayerComponent_div_6__svg_svg_15_Template(rf, ctx) { if (rf & 1) {
+    const _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AngMusicPlayerComponent_div_6__svg_svg_15_Template__svg_svg_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r18); const ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r17.repeatAudio(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "style");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " .cls{ fill: green } ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "title");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "repeat-off");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "path", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "path", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](1, _c2, ctx_r8.activeRepeatButtonColor));
+} }
+function AngMusicPlayerComponent_div_6__svg_svg_16_Template(rf, ctx) { if (rf & 1) {
+    const _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 36);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AngMusicPlayerComponent_div_6__svg_svg_16_Template__svg_svg_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r20); const ctx_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r19.previousAudio(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "title");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "previous");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "polygon", 37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "rect", 38);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](1, _c2, ctx_r9.previousButtonColor));
+} }
+function AngMusicPlayerComponent_div_6__svg_svg_17_Template(rf, ctx) { if (rf & 1) {
+    const _r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AngMusicPlayerComponent_div_6__svg_svg_17_Template__svg_svg_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r22); const ctx_r21 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r21.play(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "title");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "play");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "path", 39);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](1, _c2, ctx_r10.playButtonColor));
+} }
+function AngMusicPlayerComponent_div_6__svg_svg_18_Template(rf, ctx) { if (rf & 1) {
+    const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AngMusicPlayerComponent_div_6__svg_svg_18_Template__svg_svg_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r24); const ctx_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r23.pause(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "title");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "pause");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "g", 40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "path", 41);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](1, _c2, ctx_r11.pauseButtonColor));
+} }
+function AngMusicPlayerComponent_div_6__svg_svg_19_Template(rf, ctx) { if (rf & 1) {
+    const _r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AngMusicPlayerComponent_div_6__svg_svg_19_Template__svg_svg_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r26); const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r25.nextAudio(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "title");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "next");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "polygon", 42);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "rect", 43);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](1, _c2, ctx_r12.nextButtonColor));
+} }
+function AngMusicPlayerComponent_div_6__svg_svg_21_Template(rf, ctx) { if (rf & 1) {
+    const _r28 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 44);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AngMusicPlayerComponent_div_6__svg_svg_21_Template__svg_svg_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r28); const ctx_r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r27.muteAudio(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "defs");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "style");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, " .cls-2 { fill: none; } ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "title");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "volume-high");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "path", 45);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "path", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](1, _c2, ctx_r13.pauseButtonColor));
+} }
+function AngMusicPlayerComponent_div_6__svg_svg_22_Template(rf, ctx) { if (rf & 1) {
+    const _r30 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 47);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AngMusicPlayerComponent_div_6__svg_svg_22_Template__svg_svg_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r30); const ctx_r29 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r29.muteAudio(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "title");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "mute");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "g", 48);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "path", 49);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](1, _c2, ctx_r14.muteButtonColor));
+} }
+const _c3 = function (a0) { return { "background": a0 }; };
+function AngMusicPlayerComponent_div_6_Template(rf, ctx) { if (rf & 1) {
+    const _r32 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "input", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("input", function AngMusicPlayerComponent_div_6_Template_input_input_3_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r32); const ctx_r31 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r31.seekAudio($event); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](7, "timeConversion");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](10, "timeConversion");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, AngMusicPlayerComponent_div_6_marquee_11_Template, 3, 4, "marquee", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, AngMusicPlayerComponent_div_6_p_12_Template, 2, 4, "p", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, AngMusicPlayerComponent_div_6__svg_svg_14_Template, 5, 3, "svg", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, AngMusicPlayerComponent_div_6__svg_svg_15_Template, 7, 3, "svg", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, AngMusicPlayerComponent_div_6__svg_svg_16_Template, 5, 3, "svg", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, AngMusicPlayerComponent_div_6__svg_svg_17_Template, 4, 3, "svg", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, AngMusicPlayerComponent_div_6__svg_svg_18_Template, 5, 3, "svg", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, AngMusicPlayerComponent_div_6__svg_svg_19_Template, 5, 3, "svg", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](21, AngMusicPlayerComponent_div_6__svg_svg_21_Template, 8, 3, "svg", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, AngMusicPlayerComponent_div_6__svg_svg_22_Template, 5, 3, "svg", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "input", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AngMusicPlayerComponent_div_6_Template_input_click_24_listener($event) { return $event.stopPropagation(); })("input", function AngMusicPlayerComponent_div_6_Template_input_input_24_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r32); const ctx_r34 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r34.volumeChange($event); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("max", ctx_r4.totalAudioLength);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", ctx_r4.currentAudioTime);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](22, _c3, ctx_r4.timeSliderColor));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](24, _c1, ctx_r4.audioTimeColor));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](7, 18, ctx_r4.currentAudioTime));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](10, 20, ctx_r4.totalAudioLength));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.scrollTitle);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r4.scrollTitle);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.repeat && !ctx_r4.isRepeat);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.repeat && ctx_r4.isRepeat);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.previous);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r4.isAudioPlaying);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.isAudioPlaying);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.next);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r4.isMute);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.isMute);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", ctx_r4.audioVolume);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](26, _c3, ctx_r4.volumeSliderColor));
+} }
+const _c4 = function (a0, a1, a2) { return { "background-color": a0, "width": a1, "height": a2 }; };
+class AngMusicPlayerService {
+    constructor() { }
+}
+AngMusicPlayerService.ɵfac = function AngMusicPlayerService_Factory(t) { return new (t || AngMusicPlayerService)(); };
+AngMusicPlayerService.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({ factory: function AngMusicPlayerService_Factory() { return new AngMusicPlayerService(); }, token: AngMusicPlayerService, providedIn: "root" });
+AngMusicPlayerService.ctorParameters = () => [];
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AngMusicPlayerService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{
+                providedIn: 'root'
+            }]
+    }], function () { return []; }, null); })();
+
+class AudioPlyerOptions {
+    constructor() {
+        this.currentAudioTime = 0;
+        this.isAudioLoaded = false;
+        this.isRepeat = false;
+        this.audioVolume = 100;
+        this.isAudioEnded = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"];
+        this.isMute = false;
+        this.playEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.pauseEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+    }
+    //get audio player events
+    options() {
+        //emit event when playing audio
+        this.audioPlayer.nativeElement.addEventListener('playing', () => {
+        });
+        //emit when intial loading of audio
+        this.audioPlayer.nativeElement.addEventListener('loadeddata', () => {
+            this.isAudioLoaded = true;
+            this.getAudioLength();
+        });
+        //emit time on playing audio
+        this.audioPlayer.nativeElement.addEventListener('timeupdate', () => {
+            //get current audio time
+            this.currentAudioTime = Math.floor(this.audioPlayer.nativeElement.currentTime);
+            //check if audio is ended for next song and pass data to component
+            if (this.audioPlayer.nativeElement.ended) {
+                this.isAudioEnded.next(true);
+            }
+        });
+        this.audioPlayer.nativeElement.addEventListener('volumechange', () => {
+            this.audioVolume = Math.floor(this.audioPlayer.nativeElement.volume * 100);
+            if (this.audioVolume == 0) {
+                this.isMute = true;
+            }
+            else {
+                this.isMute = false;
+            }
+        });
+    }
+    play() {
+        //toggle play-pause button
+        this.isAudioPlaying = true;
+        //play when user click play button
+        setTimeout(() => {
+            this.audioPlayer.nativeElement.play();
+            this.playEvent.emit();
+        }, 0);
+    }
+    pause() {
+        //toggle play-pause button
+        this.isAudioPlaying = false;
+        //pause when user click pause button
+        setTimeout(() => {
+            this.audioPlayer.nativeElement.pause();
+            this.pauseEvent.emit();
+        }, 0);
+    }
+    getAudioLength() {
+        this.totalAudioLength = Math.floor(this.audioPlayer.nativeElement.duration);
+    }
+}
+AudioPlyerOptions.ɵfac = function AudioPlyerOptions_Factory(t) { return new (t || AudioPlyerOptions)(); };
+AudioPlyerOptions.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AudioPlyerOptions, selectors: [["ng-component"]], viewQuery: function AudioPlyerOptions_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_c0, 3);
+    } if (rf & 2) {
+        let _t;
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.audioPlayer = _t.first);
+    } }, outputs: { playEvent: "playEvent", pauseEvent: "pauseEvent" }, decls: 0, vars: 0, template: function AudioPlyerOptions_Template(rf, ctx) { }, encapsulation: 2 });
+AudioPlyerOptions.propDecorators = {
+    playEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    pauseEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    audioPlayer: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"], args: ['audioPlayer', { static: true },] }]
+};
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AudioPlyerOptions, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                template: ''
+            }]
+    }], function () { return []; }, { playEvent: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], pauseEvent: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], audioPlayer: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
+            args: ['audioPlayer', { static: true }]
+        }] }); })();
+
+class AngMusicPlayerComponent extends AudioPlyerOptions {
+    constructor() {
+        super();
+        this.audioList = [];
+        this.next = true;
+        this.previous = true;
+        this.shuffle = true;
+        this.repeat = true;
+        this.scrollTitle = false;
+        this.playButtonColor = "rgb(76, 130, 175)";
+        this.pauseButtonColor = "rgb(76, 130, 175)";
+        this.nextButtonColor = "rgb(76, 130, 175)";
+        this.previousButtonColor = "rgb(76, 130, 175)";
+        this.repeatButtonColor = "rgb(76, 130, 175)";
+        this.activeRepeatButtonColor = "rgb(76, 130, 175)";
+        this.volumeButtonColor = "rgb(76, 130, 175)";
+        this.muteButtonColor = "rgb(76, 130, 175)";
+        this.nextEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.previousEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.repeatEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.shuffleEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.seekEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.currentAudioIndex = 0;
+        this.repeatActive = false;
+        this.isError = false;
+        this.isShuffle = false;
+    }
+    ngOnInit() {
+        this.options();
+        this.initiateAudioPlayer();
+        //check audio is ended for next song
+        this.isAudioEnded.subscribe(data => {
+            if (!this.isRepeat && this.audioList.length > 0) {
+                this.nextAudio();
+            }
+        });
+    }
+    nextAudio() {
+        if (this.audioList.length - 1 != this.currentAudioIndex) {
+            this.currentAudioIndex += 1;
+            this.selectedAudio = this.audioList[this.currentAudioIndex];
+            this.getAudioLength();
+            if (this.isAudioPlaying) {
+                this.play();
+            }
+            this.nextEvent.emit();
+        }
+        else {
+            this.pause();
+        }
+    }
+    previousAudio() {
+        if (this.currentAudioIndex != 0) {
+            this.currentAudioIndex -= 1;
+            this.selectedAudio = this.audioList[this.currentAudioIndex];
+            this.getAudioLength();
+            if (this.isAudioPlaying) {
+                this.play();
+            }
+            this.previousEvent.emit();
+        }
+    }
+    seekAudio(seekAudioValue) {
+        if (this.audioVolume != 0) {
+            this.isMute = false;
+        }
+        this.audioPlayer.nativeElement.currentTime = seekAudioValue.target.value;
+        this.seekEvent.emit();
+    }
+    repeatAudio() {
+        this.isRepeat = !this.isRepeat;
+        this.repeatActive = !this.repeatActive;
+        this.audioPlayer.nativeElement.loop = this.isRepeat;
+        this.repeatEvent.emit();
+    }
+    /*   shuffleAudio() {
+        this.isShuffle = !this.isShuffle;
+        if (this.isShuffle) {
+        let randomItem = Math.floor(Math.random() * this.audioList.length);
+        console.log(randomItem);
+        
+        }
+        this.shuffleEvent.emit();
+      } */
+    volumeChange(volume) {
+        this.audioPlayer.nativeElement.volume = volume.target.value / 100;
+    }
+    muteAudio() {
+        if (this.isMute) {
+            this.audioPlayer.nativeElement.volume = 0.5;
+            this.isMute = false;
+        }
+        else {
+            this.audioPlayer.nativeElement.volume = 0;
+            this.isMute = true;
+        }
+    }
+    initiateAudioPlayer() {
+        if (this.audioList.length <= 0) {
+            this.isError = true;
+        }
+        else {
+            this.selectedAudio = this.audioList[this.currentAudioIndex];
+        }
+    }
+}
+AngMusicPlayerComponent.ɵfac = function AngMusicPlayerComponent_Factory(t) { return new (t || AngMusicPlayerComponent)(); };
+AngMusicPlayerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AngMusicPlayerComponent, selectors: [["ang-music-player"]], inputs: { audioList: "audioList", next: "next", previous: "previous", shuffle: "shuffle", repeat: "repeat", scrollTitle: "scrollTitle", playButtonColor: "playButtonColor", pauseButtonColor: "pauseButtonColor", nextButtonColor: "nextButtonColor", previousButtonColor: "previousButtonColor", repeatButtonColor: "repeatButtonColor", activeRepeatButtonColor: "activeRepeatButtonColor", volumeButtonColor: "volumeButtonColor", muteButtonColor: "muteButtonColor", width: "width", height: "height", backgroundColor: "backgroundColor", audioTimeColor: "audioTimeColor", audioTitleColor: "audioTitleColor", volumeSliderColor: "volumeSliderColor", timeSliderColor: "timeSliderColor" }, outputs: { nextEvent: "nextEvent", previousEvent: "previousEvent", repeatEvent: "repeatEvent", shuffleEvent: "shuffleEvent", seekEvent: "seekEvent" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]], decls: 7, vars: 10, consts: [["controls", "", 3, "src"], ["audioPlayer", ""], [1, "wrapper", 3, "ngStyle"], ["class", "loader", 4, "ngIf"], ["class", "error", 4, "ngIf"], ["class", "cover", 4, "ngIf"], ["class", "container", 4, "ngIf"], [1, "loader"], [1, "error"], [1, "cover"], [3, "src"], [1, "container"], [1, "details"], [1, "slidecontainer"], ["type", "range", "id", "myRange", 1, "slider", 3, "max", "value", "ngStyle", "input"], [1, "time-line", 3, "ngStyle"], [3, "ngStyle", 4, "ngIf"], ["class", "title", 3, "ngStyle", 4, "ngIf"], [1, "controls"], ["id", "Layer_1", "data-name", "Layer 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 64 64", 3, "ngStyle", "click", 4, "ngIf"], ["id", "Layer_1", "data-name", "Layer 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 63.98 64.03", 3, "ngStyle", "click", 4, "ngIf"], ["id", "Layer_1", "data-name", "Layer 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 65 65.7", 3, "ngStyle", "click", 4, "ngIf"], [1, "volume-container"], ["id", "volume", "data-name", "Layer 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 64 64", 3, "ngStyle", "click", 4, "ngIf"], ["id", "Capa_1", "data-name", "Capa 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 64 64", 3, "ngStyle", "click", 4, "ngIf"], [1, "volume-control"], ["type", "range", "max", "100", "id", "volumeRange", 1, "slider", 3, "value", "ngStyle", "click", "input"], [3, "ngStyle"], [1, "title"], [1, "title", 3, "ngStyle"], ["id", "Layer_1", "data-name", "Layer 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 64 64", 3, "ngStyle", "click"], ["d", "M13.78,64a1.14,1.14,0,0,1-.8-.3L.26,51.3a1.07,1.07,0,0,1-.1-1.4l.1-.1L13,37.5a1.06,1.06,0,0,1,1.2-.2,1.2,1.2,0,0,1,.7,1v7.6H49.72a1.84,1.84,0,0,0,1.8-1.7V35.6a.91.91,0,0,1,.3-.7l8.51-8.3a1.06,1.06,0,0,1,1.2-.2,1.2,1.2,0,0,1,.7,1V46c0,6.7-3.6,10.2-10.51,10.2H14.88v6.7a1,1,0,0,1-.7,1A.6.6,0,0,1,13.78,64Z", "transform", "translate(0.05 0)", 1, "cls-1"], ["d", "M3,37.8a.6.6,0,0,1-.4-.1,1.09,1.09,0,0,1-.7-1V18C2,11.3,5.57,7.8,12.48,7.8H49.22V1.1a1.2,1.2,0,0,1,.7-1A.94.94,0,0,1,51,.3L63.64,12.7a1.07,1.07,0,0,1,.1,1.4l-.1.1L51,26.5a1.06,1.06,0,0,1-1.2.2,1.09,1.09,0,0,1-.7-1V18.1H14.38a1.69,1.69,0,0,0-1.7,1.7v8.6a1.14,1.14,0,0,1-.3.8L3.87,37.5A3.18,3.18,0,0,1,3,37.8Z", "transform", "translate(0.05 0)", 1, "cls-1"], ["id", "Layer_1", "data-name", "Layer 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 63.98 64.03", 3, "ngStyle", "click"], ["d", "M13.78,64a1.13,1.13,0,0,1-.78-.31L.31,51.34a1,1,0,0,1-.07-1.41l.07-.07L13,37.49a1.09,1.09,0,0,1,1.19-.23,1,1,0,0,1,.66,1v7.63H49.64a1.73,1.73,0,0,0,1.75-1.69V35.59a1,1,0,0,1,.31-.74l8.49-8.28a1.12,1.12,0,0,1,1.18-.23,1.07,1.07,0,0,1,.67,1V46c0,6.68-3.63,10.21-10.51,10.21H14.86V63a1,1,0,0,1-.67,1A1,1,0,0,1,13.78,64Z", "transform", "translate(0.02 0.03)", 1, "cls"], ["d", "M3.05,37.75a1,1,0,0,1-.41-.09,1,1,0,0,1-.67-1V18C2,11.3,5.59,7.78,12.48,7.78H49.15V1.05a1.08,1.08,0,0,1,.67-1A1.1,1.1,0,0,1,51,.29L63.64,12.65a1,1,0,0,1,.07,1.41l-.07.07L51,26.49a1.08,1.08,0,0,1-1.18.23,1,1,0,0,1-.67-1v-7.6H14.36a1.71,1.71,0,0,0-1.72,1.69v8.61a1,1,0,0,1-.32.75l-8.5,8.26A1.06,1.06,0,0,1,3.05,37.75Z", "transform", "translate(0.02 0.03)", 1, "cls"], ["id", "Layer_1", "data-name", "Layer 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 65 65.7", 3, "ngStyle", "click"], ["points", "64.5 0.85 7.05 32.85 64.5 64.85 64.5 0.85", 1, "cls-1"], ["x", "0.5", "y", "0.85", "width", "13.52", "height", "64", 1, "cls-1"], ["d", "M21.65,79.51A3.48,3.48,0,0,1,18,76.22V18.79a3.47,3.47,0,0,1,3.64-3.28L80.8,45s2.73,2.47,0,4.93S21.65,79.51,21.65,79.51Z", "transform", "translate(-18.01 -15.51)", 1, "cls-1"], ["id", "pause"], ["d", "M16,82H37.33V18H16ZM58.67,18V82H80V18Z", "transform", "translate(-16 -18)", 1, "cls-1"], ["points", "0 64 57.45 32 0 0 0 64", 1, "cls-1"], ["x", "50.48", "width", "13.52", "height", "64", 1, "cls-1"], ["id", "volume", "data-name", "Layer 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 64 64", 3, "ngStyle", "click"], ["d", "M2.67,22.39V44.28H16.89L34.67,62.52V4.14L16.89,22.39Zm48,10.94a16.46,16.46,0,0,0-8.89-14.7V48A16.37,16.37,0,0,0,50.67,33.33Zm-8.89-32V8.85A25.49,25.49,0,0,1,59.56,33.33,25.5,25.5,0,0,1,41.78,57.82v7.51a32.65,32.65,0,0,0,24.89-32A32.66,32.66,0,0,0,41.78,1.33Z", "transform", "translate(-2.67 -1.33)", 1, "cls-1"], ["d", "M22.67,21.33h24v24h-24Z", "transform", "translate(-2.67 -1.33)", 1, "cls-2"], ["id", "Capa_1", "data-name", "Capa 1", "xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 64 64", 3, "ngStyle", "click"], ["id", "volume-off"], ["d", "M59,39.83a15.35,15.35,0,0,0-8.89-14.14v7.78L59,42.31Zm8.89,0A26.37,26.37,0,0,1,66.12,49l5.34,5.3A29.71,29.71,0,0,0,75,39.48,31.94,31.94,0,0,0,50.12,8.36v7.43C60.43,19.33,67.9,28.52,67.9,39.83ZM15.63,8,11,12.61,27.72,29.23H11V50.44H25.23L43,68.12V44.43L58.3,59.64a30,30,0,0,1-8.18,4.24V71.3a30.44,30.44,0,0,0,13.16-6.36L70.39,72,75,67.41,43,35.59ZM43,11.55,35.54,19,43,26.4Z", "transform", "translate(-11.01 -8.01)", 1, "cls-1"]], template: function AngMusicPlayerComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "audio", 0, 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, AngMusicPlayerComponent_div_3_Template, 2, 0, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, AngMusicPlayerComponent_div_4_Template, 2, 0, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, AngMusicPlayerComponent_div_5_Template, 2, 1, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, AngMusicPlayerComponent_div_6_Template, 25, 28, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.selectedAudio == null ? null : ctx.selectedAudio.url, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction3"](6, _c4, ctx.backgroundColor, ctx.width, ctx.height));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.isAudioLoaded && !ctx.isError);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isError);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", (ctx.selectedAudio == null ? null : ctx.selectedAudio.cover) && ctx.isAudioLoaded);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isAudioLoaded);
+    } }, directives: function () { return [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"]]; }, pipes: function () { return [TimeConversionPipe]; }, styles: ["@import url(\"https://fonts.googleapis.com/css?family=Raleway&display=swap\");audio[_ngcontent-%COMP%]{display:none}.wrapper[_ngcontent-%COMP%]{align-items:center;background:#000;border-radius:15px;display:flex;font-family:Raleway,sans-serif;height:130px;width:500px}.wrapper[_ngcontent-%COMP%]   .cover[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{border-radius:50%;margin-left:10px;max-height:100px;max-width:100px}.wrapper[_ngcontent-%COMP%]   .loader[_ngcontent-%COMP%]{color:#fff}.wrapper[_ngcontent-%COMP%]   .error[_ngcontent-%COMP%], .wrapper[_ngcontent-%COMP%]   .loader[_ngcontent-%COMP%]{margin:0 auto;position:relative;text-align:center}.wrapper[_ngcontent-%COMP%]   .error[_ngcontent-%COMP%]{color:#ff3737}.wrapper[_ngcontent-%COMP%]   .container[_ngcontent-%COMP%]{padding:5px;width:100%}.wrapper[_ngcontent-%COMP%]   .container[_ngcontent-%COMP%]   .details[_ngcontent-%COMP%]{text-align:center}.wrapper[_ngcontent-%COMP%]   .container[_ngcontent-%COMP%]   .details[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]{color:#4c82af;margin:7px 0 15px}.wrapper[_ngcontent-%COMP%]   .container[_ngcontent-%COMP%]   .controls[_ngcontent-%COMP%]{display:flex;flex-basis:auto;flex-direction:row;flex-wrap:wrap;justify-content:space-around;margin-top:8px}.wrapper[_ngcontent-%COMP%]   .container[_ngcontent-%COMP%]   .controls[_ngcontent-%COMP%]   svg[_ngcontent-%COMP%]{cursor:pointer;height:25px;margin:0 20px;width:25px}.wrapper[_ngcontent-%COMP%]   .container[_ngcontent-%COMP%]   .volume-container[_ngcontent-%COMP%]{position:relative}.wrapper[_ngcontent-%COMP%]   .container[_ngcontent-%COMP%]   .volume-container[_ngcontent-%COMP%]   .volume-control[_ngcontent-%COMP%]{display:none;height:32px;left:-9px;position:absolute;top:-62px;transform:rotate(270deg);width:90px;z-index:1000}.wrapper[_ngcontent-%COMP%]   .container[_ngcontent-%COMP%]   .volume-container[_ngcontent-%COMP%]:hover   .volume-control[_ngcontent-%COMP%]{display:block}.slidecontainer[_ngcontent-%COMP%]{align-items:center;display:flex;flex-direction:column;width:100%}.slidecontainer[_ngcontent-%COMP%]   .time-line[_ngcontent-%COMP%]{color:#4c82af;display:flex;justify-content:space-between;margin:7px 0 2px;width:87%}.slider[_ngcontent-%COMP%]{-webkit-appearance:none;background:#fff;border-radius:5px;height:2px;opacity:1;outline:none;transition:opacity .2s;width:87%;z-index:1000}.slider[_ngcontent-%COMP%]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#4c82af;border-radius:50%;cursor:pointer;height:15px;width:15px}.slider[_ngcontent-%COMP%]::-moz-range-thumb{background:#4c82af;border-radius:50%;cursor:pointer;height:15px;width:15px}"] });
+AngMusicPlayerComponent.ctorParameters = () => [];
+AngMusicPlayerComponent.propDecorators = {
+    width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    backgroundColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    audioTimeColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    audioTitleColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    volumeSliderColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    timeSliderColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    audioList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    next: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    previous: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    shuffle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    repeat: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    scrollTitle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    playButtonColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    pauseButtonColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    nextButtonColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    previousButtonColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    repeatButtonColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    activeRepeatButtonColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    volumeButtonColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    muteButtonColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    nextEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    previousEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    repeatEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    shuffleEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    seekEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }]
+};
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AngMusicPlayerComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'ang-music-player',
+                template: "<audio controls #audioPlayer [src]=\"selectedAudio?.url\"> </audio>\r\n\r\n<div class=\"wrapper\" [ngStyle]=\"{ 'background-color': backgroundColor , 'width': width, 'height': height }\">\r\n\r\n  <!-- loader and error -->\r\n  <div class=\"loader\" *ngIf=\"!isAudioLoaded && !isError\"> Loading....</div>\r\n  <div class=\"error\" *ngIf=\"isError\">No audio Found !</div>\r\n\r\n  <div *ngIf=\"selectedAudio?.cover && isAudioLoaded\" class=\"cover\">\r\n    <img [src]=\"selectedAudio?.cover\">\r\n  </div>\r\n\r\n  <div class=\"container\" *ngIf=\"isAudioLoaded\">\r\n    <div class=\"details\">\r\n      <div class=\"slidecontainer\">\r\n        <input type=\"range\" max=\"{{totalAudioLength}}\" value=\"{{currentAudioTime}}\"\r\n          [ngStyle]=\"{ 'background': timeSliderColor }\" (input)=\"seekAudio($event)\" class=\"slider\" id=\"myRange\">\r\n        <div class=\"time-line\" [ngStyle]=\"{ 'color' : audioTimeColor }\">\r\n          <div>{{ currentAudioTime | timeConversion}}</div>\r\n          <div>{{ totalAudioLength | timeConversion}}</div>\r\n        </div>\r\n      </div>\r\n      <marquee *ngIf=\"scrollTitle\" [ngStyle]=\"{ 'color' : audioTitleColor }\">\r\n        <p class=\"title\"> {{selectedAudio?.title}}</p>\r\n      </marquee>\r\n      <p class=\"title\" [ngStyle]=\"{ 'color' : audioTitleColor }\" *ngIf=\"!scrollTitle\"> {{selectedAudio?.title}}</p>\r\n    </div>\r\n    <div class=\"controls\">\r\n\r\n      <!-- repeat button starts -->\r\n      <!-- not active -->\r\n      <svg id=\"Layer_1\" *ngIf=\"repeat && !isRepeat\" (click)=\"repeatAudio()\" data-name=\"Layer 1\"\r\n        xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" [ngStyle]=\"{ 'fill' : repeatButtonColor }\">\r\n        <title>repeat-on</title>\r\n        <path class=\"cls-1\"\r\n          d=\"M13.78,64a1.14,1.14,0,0,1-.8-.3L.26,51.3a1.07,1.07,0,0,1-.1-1.4l.1-.1L13,37.5a1.06,1.06,0,0,1,1.2-.2,1.2,1.2,0,0,1,.7,1v7.6H49.72a1.84,1.84,0,0,0,1.8-1.7V35.6a.91.91,0,0,1,.3-.7l8.51-8.3a1.06,1.06,0,0,1,1.2-.2,1.2,1.2,0,0,1,.7,1V46c0,6.7-3.6,10.2-10.51,10.2H14.88v6.7a1,1,0,0,1-.7,1A.6.6,0,0,1,13.78,64Z\"\r\n          transform=\"translate(0.05 0)\" />\r\n        <path class=\"cls-1\"\r\n          d=\"M3,37.8a.6.6,0,0,1-.4-.1,1.09,1.09,0,0,1-.7-1V18C2,11.3,5.57,7.8,12.48,7.8H49.22V1.1a1.2,1.2,0,0,1,.7-1A.94.94,0,0,1,51,.3L63.64,12.7a1.07,1.07,0,0,1,.1,1.4l-.1.1L51,26.5a1.06,1.06,0,0,1-1.2.2,1.09,1.09,0,0,1-.7-1V18.1H14.38a1.69,1.69,0,0,0-1.7,1.7v8.6a1.14,1.14,0,0,1-.3.8L3.87,37.5A3.18,3.18,0,0,1,3,37.8Z\"\r\n          transform=\"translate(0.05 0)\" />\r\n      </svg>\r\n\r\n      <!-- active -->\r\n      <svg id=\"Layer_1\" *ngIf=\"repeat && isRepeat\" (click)=\"repeatAudio()\" data-name=\"Layer 1\"\r\n        xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 63.98 64.03\" [ngStyle]=\"{ 'fill' : activeRepeatButtonColor }\">\r\n        <style>\r\n          .cls{\r\n            fill: green\r\n          }\r\n        </style>\r\n        <title>repeat-off</title>\r\n        <path class=\"cls\"\r\n          d=\"M13.78,64a1.13,1.13,0,0,1-.78-.31L.31,51.34a1,1,0,0,1-.07-1.41l.07-.07L13,37.49a1.09,1.09,0,0,1,1.19-.23,1,1,0,0,1,.66,1v7.63H49.64a1.73,1.73,0,0,0,1.75-1.69V35.59a1,1,0,0,1,.31-.74l8.49-8.28a1.12,1.12,0,0,1,1.18-.23,1.07,1.07,0,0,1,.67,1V46c0,6.68-3.63,10.21-10.51,10.21H14.86V63a1,1,0,0,1-.67,1A1,1,0,0,1,13.78,64Z\"\r\n          transform=\"translate(0.02 0.03)\" />\r\n        <path class=\"cls\"\r\n          d=\"M3.05,37.75a1,1,0,0,1-.41-.09,1,1,0,0,1-.67-1V18C2,11.3,5.59,7.78,12.48,7.78H49.15V1.05a1.08,1.08,0,0,1,.67-1A1.1,1.1,0,0,1,51,.29L63.64,12.65a1,1,0,0,1,.07,1.41l-.07.07L51,26.49a1.08,1.08,0,0,1-1.18.23,1,1,0,0,1-.67-1v-7.6H14.36a1.71,1.71,0,0,0-1.72,1.69v8.61a1,1,0,0,1-.32.75l-8.5,8.26A1.06,1.06,0,0,1,3.05,37.75Z\"\r\n          transform=\"translate(0.02 0.03)\" />\r\n      </svg>\r\n      <!-- repeat active ends -->\r\n\r\n      <!-- previous button starts -->\r\n      <svg id=\"Layer_1\" *ngIf=\"previous\" (click)=\"previousAudio()\" data-name=\"Layer 1\"\r\n        xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 65 65.7\" [ngStyle]=\"{ 'fill' : previousButtonColor }\">\r\n        <title>previous</title>\r\n        <polygon class=\"cls-1\" points=\"64.5 0.85 7.05 32.85 64.5 64.85 64.5 0.85\" />\r\n        <rect class=\"cls-1\" x=\"0.5\" y=\"0.85\" width=\"13.52\" height=\"64\" />\r\n      </svg>\r\n      <!-- previous button ends -->\r\n\r\n      <!-- play button starts -->\r\n      <svg id=\"Layer_1\" (click)=\"play()\" *ngIf=\"!isAudioPlaying\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\"\r\n        viewBox=\"0 0 64 64\" [ngStyle]=\"{ 'fill' : playButtonColor }\">\r\n        <title>play</title>\r\n        <path class=\"cls-1\"\r\n          d=\"M21.65,79.51A3.48,3.48,0,0,1,18,76.22V18.79a3.47,3.47,0,0,1,3.64-3.28L80.8,45s2.73,2.47,0,4.93S21.65,79.51,21.65,79.51Z\"\r\n          transform=\"translate(-18.01 -15.51)\" />\r\n      </svg>\r\n      <!-- play button ends -->\r\n\r\n      <!-- pause button starts -->\r\n      <svg id=\"Layer_1\" (click)=\"pause()\" *ngIf=\"isAudioPlaying\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\"\r\n        viewBox=\"0 0 64 64\" [ngStyle]=\"{ 'fill' : pauseButtonColor }\">\r\n        <title>pause</title>\r\n        <g id=\"pause\">\r\n          <path class=\"cls-1\" d=\"M16,82H37.33V18H16ZM58.67,18V82H80V18Z\" transform=\"translate(-16 -18)\" />\r\n        </g>\r\n      </svg>\r\n      <!-- pause button ends -->\r\n\r\n      <!-- next button starts -->\r\n      <svg id=\"Layer_1\" *ngIf=\"next\" (click)=\"nextAudio()\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\"\r\n        viewBox=\"0 0 64 64\" [ngStyle]=\"{ 'fill' : nextButtonColor }\">\r\n        <title>next</title>\r\n        <polygon class=\"cls-1\" points=\"0 64 57.45 32 0 0 0 64\" />\r\n        <rect class=\"cls-1\" x=\"50.48\" width=\"13.52\" height=\"64\" />\r\n      </svg>\r\n      <!-- next button ends -->\r\n\r\n      <!-- <div class=\"shuffle\" *ngIf=\"shuffle\" [ngClass]=\"{'shuffle-active': isShuffle}\" (click)=\"shuffleAudio()\"></div> -->\r\n\r\n      <!-- volume button starts -->\r\n      <div class=\"volume-container\">\r\n        <!-- with volume -->\r\n        <svg id=\"volume\" *ngIf=\"!isMute\" (click)=\"muteAudio()\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\"\r\n          viewBox=\"0 0 64 64\" [ngStyle]=\"{ 'fill' : pauseButtonColor }\">\r\n          <defs>\r\n            <style>\r\n              .cls-2 {\r\n                fill: none;\r\n              }\r\n\r\n            </style>\r\n          </defs>\r\n          <title>volume-high</title>\r\n          <path class=\"cls-1\"\r\n            d=\"M2.67,22.39V44.28H16.89L34.67,62.52V4.14L16.89,22.39Zm48,10.94a16.46,16.46,0,0,0-8.89-14.7V48A16.37,16.37,0,0,0,50.67,33.33Zm-8.89-32V8.85A25.49,25.49,0,0,1,59.56,33.33,25.5,25.5,0,0,1,41.78,57.82v7.51a32.65,32.65,0,0,0,24.89-32A32.66,32.66,0,0,0,41.78,1.33Z\"\r\n            transform=\"translate(-2.67 -1.33)\" />\r\n          <path class=\"cls-2\" d=\"M22.67,21.33h24v24h-24Z\" transform=\"translate(-2.67 -1.33)\" />\r\n        </svg>\r\n\r\n        <!-- mute -->\r\n        <svg id=\"Capa_1\" *ngIf=\"isMute\" (click)=\"muteAudio()\" data-name=\"Capa 1\" xmlns=\"http://www.w3.org/2000/svg\"\r\n          viewBox=\"0 0 64 64\" [ngStyle]=\"{ 'fill' : muteButtonColor }\">\r\n          <title>mute</title>\r\n          <g id=\"volume-off\">\r\n            <path class=\"cls-1\"\r\n              d=\"M59,39.83a15.35,15.35,0,0,0-8.89-14.14v7.78L59,42.31Zm8.89,0A26.37,26.37,0,0,1,66.12,49l5.34,5.3A29.71,29.71,0,0,0,75,39.48,31.94,31.94,0,0,0,50.12,8.36v7.43C60.43,19.33,67.9,28.52,67.9,39.83ZM15.63,8,11,12.61,27.72,29.23H11V50.44H25.23L43,68.12V44.43L58.3,59.64a30,30,0,0,1-8.18,4.24V71.3a30.44,30.44,0,0,0,13.16-6.36L70.39,72,75,67.41,43,35.59ZM43,11.55,35.54,19,43,26.4Z\"\r\n              transform=\"translate(-11.01 -8.01)\" />\r\n          </g>\r\n        </svg>\r\n\r\n        <!-- volume button ends -->\r\n        <div class=\"volume-control\">\r\n          <input type=\"range\" max=\"100\" value=\"{{audioVolume}}\" (click)=\"$event.stopPropagation();\"\r\n            (input)=\"volumeChange($event)\" [ngStyle]=\"{ 'background': volumeSliderColor }\" class=\"slider\"\r\n            id=\"volumeRange\">\r\n        </div>\r\n      </div>\r\n\r\n    </div>\r\n  </div>\r\n</div>\r\n",
+                styles: ["@import url(\"https://fonts.googleapis.com/css?family=Raleway&display=swap\");audio{display:none}.wrapper{align-items:center;background:#000;border-radius:15px;display:flex;font-family:Raleway,sans-serif;height:130px;width:500px}.wrapper .cover img{border-radius:50%;margin-left:10px;max-height:100px;max-width:100px}.wrapper .loader{color:#fff}.wrapper .error,.wrapper .loader{margin:0 auto;position:relative;text-align:center}.wrapper .error{color:#ff3737}.wrapper .container{padding:5px;width:100%}.wrapper .container .details{text-align:center}.wrapper .container .details .title{color:#4c82af;margin:7px 0 15px}.wrapper .container .controls{display:flex;flex-basis:auto;flex-direction:row;flex-wrap:wrap;justify-content:space-around;margin-top:8px}.wrapper .container .controls svg{cursor:pointer;height:25px;margin:0 20px;width:25px}.wrapper .container .volume-container{position:relative}.wrapper .container .volume-container .volume-control{display:none;height:32px;left:-9px;position:absolute;top:-62px;transform:rotate(270deg);width:90px;z-index:1000}.wrapper .container .volume-container:hover .volume-control{display:block}.slidecontainer{align-items:center;display:flex;flex-direction:column;width:100%}.slidecontainer .time-line{color:#4c82af;display:flex;justify-content:space-between;margin:7px 0 2px;width:87%}.slider{-webkit-appearance:none;background:#fff;border-radius:5px;height:2px;opacity:1;outline:none;transition:opacity .2s;width:87%;z-index:1000}.slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#4c82af;border-radius:50%;cursor:pointer;height:15px;width:15px}.slider::-moz-range-thumb{background:#4c82af;border-radius:50%;cursor:pointer;height:15px;width:15px}"]
+            }]
+    }], function () { return []; }, { audioList: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], next: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], previous: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], shuffle: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], repeat: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], scrollTitle: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], playButtonColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], pauseButtonColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], nextButtonColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], previousButtonColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], repeatButtonColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], activeRepeatButtonColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], volumeButtonColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], muteButtonColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], nextEvent: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], previousEvent: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], repeatEvent: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], shuffleEvent: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], seekEvent: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], width: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], height: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], backgroundColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], audioTimeColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], audioTitleColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], volumeSliderColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], timeSliderColor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
+
+class TimeConversionPipe {
+    transform(audioTime) {
+        let audioLengthMin = ("0" + Math.floor(audioTime / 60)).slice(-2);
+        let audioLengthSec = ("0" + audioTime % 60).slice(-2);
+        return `${audioLengthMin}:${audioLengthSec}`;
+    }
+}
+TimeConversionPipe.ɵfac = function TimeConversionPipe_Factory(t) { return new (t || TimeConversionPipe)(); };
+TimeConversionPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({ name: "timeConversion", type: TimeConversionPipe, pure: true });
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TimeConversionPipe, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+        args: [{
+                name: 'timeConversion'
+            }]
+    }], null, null); })();
+
+class AngMusicPlayerModule {
+}
+AngMusicPlayerModule.ɵfac = function AngMusicPlayerModule_Factory(t) { return new (t || AngMusicPlayerModule)(); };
+AngMusicPlayerModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: AngMusicPlayerModule });
+AngMusicPlayerModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ imports: [[
+            _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"]
+        ]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AngMusicPlayerModule, { declarations: function () { return [AngMusicPlayerComponent, TimeConversionPipe]; }, imports: function () { return [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"]]; }, exports: function () { return [AngMusicPlayerComponent]; } }); })();
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AngMusicPlayerModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+                declarations: [AngMusicPlayerComponent, TimeConversionPipe],
+                imports: [
+                    _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"]
+                ],
+                exports: [AngMusicPlayerComponent]
+            }]
+    }], null, null); })();
+
+/*
+ * Public API Surface of ang-music-player
+ */
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+
+
+//# sourceMappingURL=ang-music-player.js.map
+
+/***/ }),
+
 /***/ "Gqsl":
 /*!*********************************************************************!*\
   !*** ./node_modules/rxjs/_esm2015/internal/operators/repeatWhen.js ***!

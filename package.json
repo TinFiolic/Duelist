@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~11.2.8",
     "@angular/platform-server": "~11.2.8",
     "@angular/router": "~11.2.8",
+    "ang-music-player": "0.0.4",
     "rxjs": "~6.6.0",
     "sticky-sidebar": "^3.3.1",
     "tslib": "^2.0.0",

@@ -5,6 +5,13 @@
     font-size: 70px;
 }
 
+.title2 {
+    color: #FE5D26;
+
+    font-family: 'Open Sans Condensed';
+    font-size: 50px;
+}
+
 .center {
     justify-content: center;
     align-items: center;
@@ -16,22 +23,30 @@
    margin-top: 6vh;
 }
 
-.album {
-    transform: skewY(10deg); 
-    margin-top: 5vh;
-    box-shadow: 1px 1px 0px #999,
-                2px 2px 0px #999,
-                3px 3px 0px #999,
-                4px 4px 0px #999,
-                5px 5px 0px #999,
-                6px 6px 0px #999,
-                7px 7px 0px #999,
-                8px 8px 0px #999,
-                9px 9px 0px #999;
-}
-
 p {
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) { 
+    p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .title {
+        color: #FE5D26;
+    
+        font-family: 'Open Sans Condensed';
+        font-size: 50px;
+    }
+
+    .title {
+        color: #FE5D26;
+    
+        font-family: 'Open Sans Condensed';
+        font-size: 40px;
+    }
 }

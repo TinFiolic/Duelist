@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { AngMusicPlayerModule } from  'ang-music-player';
+import { CommonModule } from  '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
 import { AlbumComponent } from './album/album.component';
 import { MainComponent } from './main/main.component';
@@ -16,7 +17,9 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    AppRoutingModule
+    AppRoutingModule,
+    AngMusicPlayerModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [MainComponent]
