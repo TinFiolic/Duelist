@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class MainComponent implements OnInit {
 
   currentPage: string = "discography";
-  pageList: string[] = ["discography", "streaming", "download", "about", "contact"];
+  pageList: string[] = ["discography", "streaming", "download", "biography", "contact"];
   
   constructor() { }
 

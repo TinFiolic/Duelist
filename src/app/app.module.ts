@@ -10,6 +10,8 @@ import { DownloadComponent } from './download/download.component';
 import { MainComponent } from './main/main.component';
 import { IntroComponent } from './intro/intro.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
+import { BiographyComponent } from './biography/biography.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent,
     StreamingComponent,
     DownloadComponent,
-    PlayerComponent
+    PlayerComponent,
+    ContactComponent,
+    BiographyComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

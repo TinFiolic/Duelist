@@ -9,7 +9,7 @@
                 <p class="menuItem" id="discography" (click)="changePage('discography')">Discography</p> <span class="divider">•</span> <br>
                 <p class="menuItem" id="streaming" (click)="changePage('streaming')">Streaming</p> <span class="divider">•</span> <br>
                 <p class="menuItem" id="download" (click)="changePage('download')">Download</p> <span class="divider">•</span> <br>
-                <p class="menuItem" id="about" (click)="changePage('about')">Biography</p> <span class="divider">•</span> <br>
+                <p class="menuItem" id="biography" (click)="changePage('biography')">Biography</p> <span class="divider">•</span> <br>
                 <p class="menuItem" id="contact" (click)="changePage('contact')">Contact</p>
             </div>
         </div>
@@ -18,6 +18,8 @@
                 <app-album *ngIf="currentPage == 'discography'"></app-album>
                 <app-streaming *ngIf="currentPage == 'streaming'"></app-streaming>
                 <app-download *ngIf="currentPage == 'download'"></app-download>
+                <app-biography *ngIf="currentPage == 'biography'"></app-biography>
+                <app-contact *ngIf="currentPage == 'contact'"></app-contact>
                 <app-footer></app-footer>
             </div>
         </div>
