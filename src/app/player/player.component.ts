@@ -83,11 +83,17 @@ export class PlayerComponent implements OnInit {
   }
 
   round(number) {
-    return Math.round(number) < 10 ? '0' + Math.round(number) : Math.round(number);
+    if(isNaN(Math.round(number)))
+      return "--";
+    else
+      return Math.round(number) < 10 ? '0' + Math.round(number) : Math.round(number);
   }
 
   floor(number) {
-    return Math.floor(number) < 10 ? '0' + Math.floor(number) : Math.floor(number);
+    if(isNaN(Math.floor(number)))
+      return "--";
+    else
+      return Math.floor(number) < 10 ? '0' + Math.floor(number) : Math.floor(number);
   }
 
 }
