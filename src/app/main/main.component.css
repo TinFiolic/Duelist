@@ -300,6 +300,7 @@ hr {
         position: fixed;
         top: 3vh;
         left: 30vw;
+        z-index: 100;
     }
 
     .content {
@@ -381,6 +382,7 @@ hr {
         position: fixed;
         top: 3vh;
         left: 30vw;
+        z-index: 100;
     }
 
     .content {

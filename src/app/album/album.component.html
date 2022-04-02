@@ -7,27 +7,19 @@
     <p>These songs can be heard below (once again, <i>Fallen</i> and <i>Soul Hole</i> are NOT finished products just yet!). <br> Songs
     were written by band members and have been mixed/mastered by <a target="_blank" href="https://kristijantackovic.wixsite.com/kikimarcello">Kiki Marcello</a>.</p> <br> <br>
 
-    <h1 class="title2">Lost Comfort</h1> <br>
-    
-    <ang-music-player width = "330px" [audioList] = lostComfort backgroundColor = "rgba(0, 0, 0, 0)"
-    audioTimeColor = "#FFF" audioTitleColor = "#FFF" timeSliderColor = "#FFF"
-    volumeSliderColor = "rgba(0, 0, 0, 0)" playButtonColor = "#FFF" pauseButtonColor = "#FFF"
-    nextButtonColor = "#FFF" previousButtonColor = "#FFF" repeatButtonColor = "#FFF"
-    activeRepeatButtonColor = "#FFF" volumeButtonColor = "#FFF" muteButtonColor = "#FFF"></ang-music-player> <br> <br>
+    <h1 class="title2">{{selectedSong}}</h1> <br>
 
-    <h1 class="title2">Fallen</h1> <br>
-    
-    <ang-music-player width = "330px" [audioList] = fallen backgroundColor = "rgba(0, 0, 0, 0)"
-    audioTimeColor = "#FFF" audioTitleColor = "#FFF" timeSliderColor = "#FFF"
-    volumeSliderColor = "rgba(0, 0, 0, 0)" playButtonColor = "#FFF" pauseButtonColor = "#FFF"
-    nextButtonColor = "#FFF" previousButtonColor = "#FFF" repeatButtonColor = "#FFF"
-    activeRepeatButtonColor = "#FFF" volumeButtonColor = "#FFF" muteButtonColor = "#FFF"></ang-music-player> <br> <br>
+    <app-player [name]="songs[selectedSongIndex]" [link]="songLinks[selectedSongIndex]"></app-player> <br> <br> <br> <br>
 
-    <h1 class="title2">Soul Hole</h1> <br>
+    <div class="chooseSong">
+        <div class="songList" *ngFor="let song of songs; let i = index">
+            <span *ngIf="selectedSong == song">
+                <p (click)="switchSong(song, i)" class="selectedSong">{{song}}</p>
+            </span>
+            <span *ngIf="selectedSong !== song">
+                <p (click)="switchSong(song, i)">{{song}}</p>
+            </span>
+        </div>
+    </div>
     
-    <ang-music-player width = "330px" [audioList] = soulHole backgroundColor = "rgba(0, 0, 0, 0)"
-    audioTimeColor = "#FFF" audioTitleColor = "#FFF" timeSliderColor = "#FFF"
-    volumeSliderColor = "rgba(0, 0, 0, 0)" playButtonColor = "#FFF" pauseButtonColor = "#FFF"
-    nextButtonColor = "#FFF" previousButtonColor = "#FFF" repeatButtonColor = "#FFF"
-    activeRepeatButtonColor = "#FFF" volumeButtonColor = "#FFF" muteButtonColor = "#FFF"></ang-music-player>
 </div> 

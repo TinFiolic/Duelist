@@ -1,0 +1,21 @@
+<audio id="song" src="{{link}}"></audio>
+<div> 
+  <span class="time">{{floor(currentTime / 60)}}:{{floor(currentTime % 60)}}</span>
+  <input type="range" min="0" max="{{element.duration}}" value="{{currentTime}}" class="slider" id="range" (input)="moveSlider()"> 
+  <span class="time">{{floor(duration / 60)}}:{{floor(duration % 60)}}</span> <br>
+
+  <span *ngIf="muted">
+    <i class="fa-solid fa-volume-xmark volumeIcon" (click)="muteVolume()"></i>
+  </span>
+  <span *ngIf="!muted">
+    <i class="fa-solid fa-volume-high volumeIcon" (click)="muteVolume()"></i>
+  </span>
+  <input type="range" min="0" max="100" value="100" class="slider" id="volume" (input)="moveVolume()"> <br> <br>
+
+  <span *ngIf="element.paused">
+    <i class="fa-solid fa-play playIcon" (click)="playPause()"></i>
+  </span>
+  <span *ngIf="!element.paused">
+    <i class="fa-solid fa-pause playIcon" (click)="playPause()"></i>
+  </span>
+</div>
