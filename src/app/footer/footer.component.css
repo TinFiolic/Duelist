@@ -37,6 +37,7 @@ a:visited {
 a:hover {
   color: rgb(207, 0, 0);
   text-decoration: none;
+  cursor: url('../../cursorLink.png'), auto;
 }
 
 a:active {

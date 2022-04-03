@@ -394,3 +394,85 @@ hr {
         display: none;
     }
 }
+
+@media only screen and (max-width: 410px) {
+    hr {
+        border: 0;
+        height: 2px;
+        background-image: linear-gradient(to right, rgba(10, 13, 20, 0.205), #7e0000, rgba(10, 13, 20, 0.205));
+        animation: lineAnimation 0s 0;
+        display: none;
+    }
+
+    .logo {
+        font-family: teutonic;
+    
+        color: #FFFFFF;
+    
+        text-shadow: 3px 3px 3px #000000,
+            6px 6px 10px gray;
+    
+        font-size: 60px;
+    
+        margin-top: -3vh;
+        margin-left: -45%;
+    
+        padding-bottom: 55px;
+        padding-top: 20px;
+    
+        -webkit-user-select: none;
+        /* Safari */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* IE10+/Edge */
+        user-select: none;
+        /* Standard */
+    
+        animation: staticAnimation 0s 0;
+
+        background-image: url('../../bg.jpg');
+        z-index: 1;
+
+        border-bottom: 1px solid black;
+    }
+
+    .menu {
+        margin-top: -30px;
+        margin-left: -30vw;
+        width: 100vw;
+        filter: drop-shadow(0px 20px 70px red);
+        background: rgb(22, 10, 10, 0);
+    }
+    
+    .divider {
+        display: none;
+    }
+
+    .menuItem {
+        font-family: 'Francois One', sans-serif;
+        font-size: 12px;
+        display: inline;
+
+        padding-right: 4vw;
+
+        text-shadow: 3px 3px 3px #000000,
+            6px 6px 10px gray;
+    }
+
+    #sidebar {
+        position: fixed;
+        top: 3vh;
+        left: 30vw;
+        z-index: 100;
+    }
+
+    .content {
+        margin-top: 150px;
+        margin-left: 10vw;
+    }
+
+    br {
+        display: none;
+    }
+}

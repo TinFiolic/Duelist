@@ -70,6 +70,7 @@ a {
   a:hover {
     color: rgb(207, 0, 0);
     text-decoration: none;
+    cursor: url('../../cursorLink.png'), auto;
   }
   
   a:active {
@@ -97,4 +98,50 @@ a {
         font-family: 'Open Sans Condensed';
         font-size: 40px;
     }
+
+    th, td {
+      padding: 0.3vw;
+    }
+
+    table {
+      font-family: 'Barlow', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+    
+      line-height: 1.5;
+    }
+}
+
+@media only screen and (max-width: 350px) { 
+  p {
+      font-family: 'Barlow', sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+  }
+
+  .title {
+      color: #FE5D26;
+  
+      font-family: 'Open Sans Condensed';
+      font-size: 50px;
+  }
+
+  .title2 {
+      color: #FE5D26;
+  
+      font-family: 'Open Sans Condensed';
+      font-size: 40px;
+  }
+
+  th, td {
+    padding: 0.2vw;
+  }
+
+  table {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  
+    line-height: 1.5;
+  }
 }

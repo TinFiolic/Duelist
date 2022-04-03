@@ -17,5 +17,8 @@
   </span>
   <span *ngIf="!element.paused">
     <i class="fa-solid fa-pause playIcon" (click)="playPause()"></i>
-  </span>
+  </span> <br> <br>
+
+  <p style="width: 60%; height: 5vh; background-color: rgba(0, 0, 0, 0); padding-top: 1vh; padding-bottom: 1vh;">{{currentLyric}}</p>
+  {{currentTime}} 
 </div>

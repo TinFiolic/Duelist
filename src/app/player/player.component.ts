@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
+declare const lostComfortLyrics: any;
+
 @Component({
   selector: 'app-player',
   templateUrl: './player.component.html',
@@ -24,6 +26,8 @@ export class PlayerComponent implements OnInit {
 
   currentTime : number = 0;
   duration : number = 0;
+
+  currentLyric : string = "";
   
   constructor() { }
 
@@ -43,9 +47,11 @@ export class PlayerComponent implements OnInit {
     if(!this.paused) {
       this.currentTime = this.element.currentTime;
       this.duration = this.element.duration;
+      this.lyrics(this.currentTime);
       if(this.element.ended) {
         this.paused = true;
         this.currentTime = 0;
+        this.currentLyric = "";
         return;
       }
       setTimeout(() => { this.updateSlider() }, 1000 * 1);
@@ -94,6 +100,12 @@ export class PlayerComponent implements OnInit {
       return "--";
     else
       return Math.floor(number) < 10 ? '0' + Math.floor(number) : Math.floor(number);
+  }
+
+  lyrics(time) {
+    if(this.name == "Lost Comfort") {
+      return this.currentLyric = lostComfortLyrics(time);
+    }
   }
 
 }
