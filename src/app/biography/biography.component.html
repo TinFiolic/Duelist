@@ -13,5 +13,21 @@
     and record another EP, as we've pretty much already written it whole.</p> <br>
 
     <p>Once the biography is updated, it should contain the whole setup (gear) each of us is using, a little about each 
-    one of us personally and whatever more we can think of! Until then, stay tuned and rock on!</p>
+    one of us personally and whatever more we can think of! Until then, stay tuned and rock on!</p> <br> <br>
+
+    <h1 class="title">Gallery</h1> <br> 
+    
+    <span class="memberList selectedMember" (click)="switchImage('band')" id="band">The Band</span>
+    <span class="memberList" style="margin-left: 3vw;" (click)="switchImage('matija')" id="matija">Matija</span> 
+    <span class="memberList" style="margin-left: 3vw;" (click)="switchImage('kristijan')" id="kristijan">Kristijan</span> 
+    <span class="memberList" style="margin-left: 3vw;" (click)="switchImage('luka')" id="luka">Luka</span> 
+    <span class="memberList" style="margin-left: 3vw;" (click)="switchImage('tin')" id="tin">Tin</span>
+
+    <br> <br>
+    
+    <img *ngIf="currentMember=='band'" class="gallery" src="https://raw.githubusercontent.com/TinFiolic/Duelist/main/bandphoto.JPG" />
+    <img *ngIf="currentMember=='matija'" class="gallery2" src="https://raw.githubusercontent.com/TinFiolic/Duelist/main/matija.JPG" />
+    <img *ngIf="currentMember=='luka'" class="gallery2" src="https://raw.githubusercontent.com/TinFiolic/Duelist/main/toth.JPG" />
+    <img *ngIf="currentMember=='kristijan'" class="gallery2" src="https://raw.githubusercontent.com/TinFiolic/Duelist/main/kiki.JPG" />
+    <img *ngIf="currentMember=='tin'" class="gallery2" src="https://raw.githubusercontent.com/TinFiolic/Duelist/main/ja.JPG" />
 </div> 

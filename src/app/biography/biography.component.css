@@ -55,7 +55,40 @@ a {
   a:active {
     color: rgb(255, 0, 0);
     text-decoration: none;
-  } 
+  }
+
+  .gallery {
+    width: 55vw;
+    height: 33vw;
+
+    border: 2px solid white;
+
+    object-fit: cover;
+  }
+
+  .gallery2 {
+    width: 37vw;
+    height: 55vw;
+
+    border: 2px solid white;
+
+    object-fit: cover;
+  }
+
+  .memberList {
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+    color: red;
+  }
+
+  .selectedMember {
+    color: #FFFFFF;
+
+    border-bottom: 1px solid #FE5D26;
+    padding-bottom: 5px;
+  }
 
 @media only screen and (max-width: 700px) { 
     p {
@@ -76,5 +109,20 @@ a {
     
         font-family: 'Open Sans Condensed';
         font-size: 40px;
+    }
+
+    .memberList {
+        font-family: 'Barlow', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+
+        color: red;
+    }
+
+    .selectedMember {
+      color: #FFFFFF;
+  
+      border-bottom: 1px solid #FE5D26;
+      padding-bottom: 5px;
     }
 }
