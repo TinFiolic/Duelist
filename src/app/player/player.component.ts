@@ -73,9 +73,11 @@ export class PlayerComponent implements OnInit {
       this.paused = false;
       this.element.play();
       this.updateSlider();
+      document.title = "Duelist - " + this.name;
     } else {
       this.paused = true;
       this.element.pause();
+      document.title = "Duelist";
     }
   }
 

@@ -26,19 +26,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "ofXK");
 
 
-function BiographyComponent_img_38_Template(rf, ctx) { if (rf & 1) {
+function BiographyComponent_img_44_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 12);
 } }
-function BiographyComponent_img_39_Template(rf, ctx) { if (rf & 1) {
+function BiographyComponent_img_45_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 13);
 } }
-function BiographyComponent_img_40_Template(rf, ctx) { if (rf & 1) {
+function BiographyComponent_img_46_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 14);
 } }
-function BiographyComponent_img_41_Template(rf, ctx) { if (rf & 1) {
+function BiographyComponent_img_47_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 15);
 } }
-function BiographyComponent_img_42_Template(rf, ctx) { if (rf & 1) {
+function BiographyComponent_img_48_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 16);
 } }
 class BiographyComponent {
@@ -60,7 +60,7 @@ class BiographyComponent {
     }
 }
 BiographyComponent.ɵfac = function BiographyComponent_Factory(t) { return new (t || BiographyComponent)(); };
-BiographyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BiographyComponent, selectors: [["app-biography"]], decls: 43, vars: 5, consts: [[1, "content", "center"], [1, "title"], ["id", "band", 1, "memberList", "selectedMember", 3, "click"], ["id", "matija", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "kristijan", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "luka", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "tin", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["class", "gallery", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/bandphoto.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/matija.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/toth.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/kiki.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ja.JPG", 4, "ngIf"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/bandphoto.JPG", 1, "gallery"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/matija.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/toth.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/kiki.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ja.JPG", 1, "gallery2"]], template: function BiographyComponent_Template(rf, ctx) { if (rf & 1) {
+BiographyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BiographyComponent, selectors: [["app-biography"]], decls: 49, vars: 5, consts: [[1, "content", "center"], [1, "title"], ["id", "band", 1, "memberList", "selectedMember", 3, "click"], ["id", "matija", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "kristijan", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "luka", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "tin", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["class", "gallery", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/bandphoto.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/matija.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/toth.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/kiki.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ja.JPG", 4, "ngIf"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/bandphoto.JPG", 1, "gallery"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/matija.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/toth.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/kiki.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ja.JPG", 1, "gallery2"]], template: function BiographyComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
@@ -78,52 +78,60 @@ BiographyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "The current idea is to finish recording the first EP (");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "In 2021, Luka, Matija and Tin met with Kiki Marcello, a musician/producer, to record ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "i");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "A Fall From Grace");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "), go out and play some shows, then go back and record another EP, as we've pretty much already written it whole.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, ", however as the recording process went, Kiki had become tempted to join the band. As of right now, he has agreed to play live events with the band, and as for the full time band membership, this will hopefully get decided in a short while.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Once the biography is updated, it should contain the whole setup (gear) each of us is using, a little about each one of us personally and whatever more we can think of! Until then, stay tuned and rock on!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "The current idea is to finish recording the first EP (");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "A Fall From Grace");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Gallery");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "), go out and play some shows, then go back and record another EP, as we've pretty much already written it whole.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_26_listener() { return ctx.switchImage("band"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "The Band");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Once the biography is updated, it should contain the whole setup (gear) each of us is using, a little about each one of us personally and whatever more we can think of! Until then, stay tuned and rock on!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "span", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_28_listener() { return ctx.switchImage("matija"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Matija");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "h1", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Gallery");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "span", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_30_listener() { return ctx.switchImage("kristijan"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Kristijan");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_32_listener() { return ctx.switchImage("band"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "The Band");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "span", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_32_listener() { return ctx.switchImage("luka"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Luka");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "span", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_34_listener() { return ctx.switchImage("matija"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Matija");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "span", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_34_listener() { return ctx.switchImage("tin"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Tin");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "span", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_36_listener() { return ctx.switchImage("kristijan"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Kiki");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](38, BiographyComponent_img_38_Template, 1, 0, "img", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](39, BiographyComponent_img_39_Template, 1, 0, "img", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](40, BiographyComponent_img_40_Template, 1, 0, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](41, BiographyComponent_img_41_Template, 1, 0, "img", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](42, BiographyComponent_img_42_Template, 1, 0, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "span", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_38_listener() { return ctx.switchImage("luka"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Luka");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "span", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_40_listener() { return ctx.switchImage("tin"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Tin");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](44, BiographyComponent_img_44_Template, 1, 0, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](45, BiographyComponent_img_45_Template, 1, 0, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](46, BiographyComponent_img_46_Template, 1, 0, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](47, BiographyComponent_img_47_Template, 1, 0, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](48, BiographyComponent_img_48_Template, 1, 0, "img", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](44);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.currentMember == "band");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.currentMember == "matija");
@@ -236,10 +244,12 @@ class PlayerComponent {
             this.paused = false;
             this.element.play();
             this.updateSlider();
+            document.title = "Duelist - " + this.name;
         }
         else {
             this.paused = true;
             this.element.pause();
+            document.title = "Duelist";
         }
     }
     moveSlider() {
