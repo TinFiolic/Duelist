@@ -7,24 +7,42 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlbumComponent implements OnInit {
 
-  songs: string[] = ["Lost Comfort", "Fallen", "Soul Hole"];
+  songs: string[] = ["Soul Hole", "Fallen", "Lost Comfort pt.1", "Lost Comfort pt.2", "Ignorance is Decadance"];
   songLinks: string[] = [
-    "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Duelist%20-%20Lost%20Comfort.mp3",
+    "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Soul%20Hole.mp3",
     "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Fallen.mp3",
-    "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Soul%20Hole.mp3"
+    "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Lost%20Comfort%20intro.mp3",
+    "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Lost%20Comfort.mp3",
+    "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ID.mp3"
   ];
 
-  selectedSong: string = "Lost Comfort";
+  selectedSong: string = "Soul Hole";
   selectedSongIndex: number = 0;
 
   constructor() { }
 
   ngOnInit(): void {}
 
-  lostComfort = [
+  lostComfort1 = [
     {
-      url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Duelist%20-%20Lost%20Comfort.mp3",
-      title: "Lost Comfort",
+      url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Lost%20Comfort%20intro.mp3",
+      title: "Lost Comfort pt.1",
+      cover: ""
+    }
+  ];
+
+  lostComfort2 = [
+    {
+      url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Lost%20Comfort.mp3",
+      title: "Lost Comfort pt.2",
+      cover: ""
+    }
+  ];
+
+  soulHole = [
+    {
+      url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Soul%20Hole.mp3",
+      title: "Soul Hole",
       cover: ""
     }
   ];
@@ -37,13 +55,15 @@ export class AlbumComponent implements OnInit {
     }
   ];
 
-  soulHole = [
+  falliden = [
     {
-      url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Soul%20Hole.mp3",
-      title: "Soul Hole",
+      url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ID.mp3",
+      title: "Ignorance is Decadance",
       cover: ""
     }
   ];
+
+
 
   switchSong(song, index) {
     this.selectedSong = song;
