@@ -488,7 +488,7 @@ DownloadComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "tr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Lost Comfort pt.1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Lost Comfort, Pt.1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "td");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, ".mp3");
@@ -507,7 +507,7 @@ DownloadComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "tr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Lost Comfort pt.2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Lost Comfort, Pt.2");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "td");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, ".mp3");
@@ -811,7 +811,7 @@ function AlbumComponent_div_13_Template(rf, ctx) { if (rf & 1) {
 } }
 class AlbumComponent {
     constructor() {
-        this.songs = ["Soul Hole", "Fallen", "Lost Comfort pt.1", "Lost Comfort pt.2", "Ignorance is Decadence"];
+        this.songs = ["Soul Hole", "Fallen", "Lost Comfort, Pt.1", "Lost Comfort, Pt.2", "Ignorance is Decadence"];
         this.songLinks = [
             "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Soul%20Hole.mp3",
             "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Fallen.mp3",
@@ -824,14 +824,14 @@ class AlbumComponent {
         this.lostComfort1 = [
             {
                 url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Lost%20Comfort%20intro.mp3",
-                title: "Lost Comfort pt.1",
+                title: "Lost Comfort, Pt.1",
                 cover: ""
             }
         ];
         this.lostComfort2 = [
             {
                 url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Lost%20Comfort.mp3",
-                title: "Lost Comfort pt.2",
+                title: "Lost Comfort, Pt.2",
                 cover: ""
             }
         ];
