@@ -26,20 +26,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "ofXK");
 
 
-function BiographyComponent_img_44_Template(rf, ctx) { if (rf & 1) {
+function BiographyComponent_img_38_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 12);
+} }
+function BiographyComponent_img_39_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 13);
 } }
-function BiographyComponent_img_45_Template(rf, ctx) { if (rf & 1) {
+function BiographyComponent_img_40_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 14);
 } }
-function BiographyComponent_img_46_Template(rf, ctx) { if (rf & 1) {
+function BiographyComponent_img_41_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 15);
 } }
-function BiographyComponent_img_47_Template(rf, ctx) { if (rf & 1) {
+function BiographyComponent_img_42_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 16);
-} }
-function BiographyComponent_img_48_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 17);
 } }
 class BiographyComponent {
     constructor() {
@@ -60,7 +60,7 @@ class BiographyComponent {
     }
 }
 BiographyComponent.ɵfac = function BiographyComponent_Factory(t) { return new (t || BiographyComponent)(); };
-BiographyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BiographyComponent, selectors: [["app-biography"]], decls: 53, vars: 5, consts: [[1, "content", "center"], [1, "title"], ["id", "band", 1, "memberList", "selectedMember", 3, "click"], ["id", "matija", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "kristijan", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "luka", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "tin", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["class", "gallery", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/bandphoto.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/matija.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/toth.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/kiki.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ja.JPG", 4, "ngIf"], [2, "font-size", "14px"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/bandphoto.JPG", 1, "gallery"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/matija.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/toth.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/kiki.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ja.JPG", 1, "gallery2"]], template: function BiographyComponent_Template(rf, ctx) { if (rf & 1) {
+BiographyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BiographyComponent, selectors: [["app-biography"]], decls: 43, vars: 5, consts: [[1, "content", "center"], [1, "title"], ["id", "band", 1, "memberList", "selectedMember", 3, "click"], ["id", "matija", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "kristijan", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "luka", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["id", "tin", 1, "memberList", 2, "margin-left", "3vw", 3, "click"], ["class", "gallery", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/bandphoto.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/matija.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/toth.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/kiki.JPG", 4, "ngIf"], ["class", "gallery2", "src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ja.JPG", 4, "ngIf"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/bandphoto.JPG", 1, "gallery"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/matija.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/toth.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/kiki.JPG", 1, "gallery2"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ja.JPG", 1, "gallery2"]], template: function BiographyComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
@@ -70,73 +70,60 @@ BiographyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "The biography is still being written, so while we're at it, here's the brief history of the band;");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "We formed some time shortly before the infamous coronavirus pandemic hit the world by surprise, in 2019. With Luka Toth on guitar and vocals, Matija Vedri\u0161 on drums and Tin Fioli\u0107 on guitar and vocals, we set out to make a record that's a mix of a bunch of genres us three combined listented to and loved through the years, all while growing as musicians and friends in the process. What we came up with is a sound remeniscent of old rock/metal, with a fresh modern twist, but with melodical instrumental and vocal lines that are slowly dissapearing in modern music as time passes...");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "We formed some time shortly before the infamous coronavirus pandemic hit the world by surprise, in 2019. With Luka Toth on guitar and vocals, Matija Vedri\u0161 on drums and Tin Fioli\u0107 on guitar and vocals, we set out to make a record that's a mix of a bunch of genres us three combined listented to and loved through the years, all while growing as musicians and friends in the process. What we came up with is a sound remeniscent of old rock/metal, with a fresh modern twist, but with melodical instrumental and vocal lines that are slowly dissapearing in modern music as time passes...");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "In 2021, Luka, Matija and Tin met with Kiki Marcello, a musician/producer/photographer, to record ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Downfall");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "In 2021, Luka, Matija and Tin met with Kiki Marcello, a musician/producer/photographer, to record ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "A Fall From Grace");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, ", however as the recording process went, Kiki had become interested in joining the band. As time progressed, he finally decided to take up bass guitar and join Duelist in 2022.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, ", however as the recording process went, Kiki had become interested in joining the band. As time progressed, he finally decided to take up bass guitar and join Duelist in 2022.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "The current idea is to finish recording the first demo EP (");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Downfall");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "The current idea is to finish recording the first EP (");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "A Fall From Grace");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "), go out and play some shows, find a record label to sign us and record a full-fledged album.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "), go out and play some shows, then go back and record another EP, as we've pretty much already written it whole.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "h1", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Gallery");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Once the biography is updated, it should contain the whole setup (gear) each of us is using, a little about each one of us personally and whatever more we can think of! Until then, stay tuned and rock on!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_26_listener() { return ctx.switchImage("band"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "The Band");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Gallery");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "span", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_28_listener() { return ctx.switchImage("matija"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Matija");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_32_listener() { return ctx.switchImage("band"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "The Band");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "span", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_30_listener() { return ctx.switchImage("kristijan"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Kiki");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "span", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_34_listener() { return ctx.switchImage("matija"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Matija");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "span", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_32_listener() { return ctx.switchImage("luka"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Luka");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "span", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_36_listener() { return ctx.switchImage("kristijan"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Kiki");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "span", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_34_listener() { return ctx.switchImage("tin"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Tin");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "span", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_38_listener() { return ctx.switchImage("luka"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Luka");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "span", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BiographyComponent_Template_span_click_40_listener() { return ctx.switchImage("tin"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Tin");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](44, BiographyComponent_img_44_Template, 1, 0, "img", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](45, BiographyComponent_img_45_Template, 1, 0, "img", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](46, BiographyComponent_img_46_Template, 1, 0, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](47, BiographyComponent_img_47_Template, 1, 0, "img", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](48, BiographyComponent_img_48_Template, 1, 0, "img", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](49, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Photos were taken by Kiki and his girlfriend Lorena");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](38, BiographyComponent_img_38_Template, 1, 0, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](39, BiographyComponent_img_39_Template, 1, 0, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](40, BiographyComponent_img_40_Template, 1, 0, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](41, BiographyComponent_img_41_Template, 1, 0, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](42, BiographyComponent_img_42_Template, 1, 0, "img", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](44);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](38);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.currentMember == "band");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.currentMember == "matija");
@@ -389,7 +376,7 @@ StreamingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " however, as soon as we're done recording ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "A Fall From Grace");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Downfall");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, ", ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
@@ -422,7 +409,7 @@ class DownloadComponent {
     ngOnInit() { }
 }
 DownloadComponent.ɵfac = function DownloadComponent_Factory(t) { return new (t || DownloadComponent)(); };
-DownloadComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DownloadComponent, selectors: [["app-download"]], decls: 76, vars: 0, consts: [[1, "content", "center"], [1, "title"], ["target", "_blank", "href", "https://duelistband.bandcamp.com/"], ["target", "_blank", "href", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Duelist%20-%20Lost%20Comfort.mp3"], ["target", "_blank", "href", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Fallen.mp3"], ["target", "_blank", "href", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Soul%20Hole.mp3"]], template: function DownloadComponent_Template(rf, ctx) { if (rf & 1) {
+DownloadComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DownloadComponent, selectors: [["app-download"]], decls: 89, vars: 0, consts: [[1, "content", "center"], [1, "title"], ["target", "_blank", "href", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Soul%20Hole.mp3"], ["target", "_blank", "href", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Fallen.mp3"], ["target", "_blank", "href", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Lost%20Comfort%20intro.mp3"], ["target", "_blank", "href", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Lost%20Comfort.mp3"], ["target", "_blank", "href", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ID.mp3"]], template: function DownloadComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
@@ -431,104 +418,128 @@ DownloadComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "On our website, we provide only ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, ".mp3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Once you open one of the links below, if you're on a desktop, right click ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " and select \u00BB");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Save Audio As...");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " song format, however, you can visit our ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "bandcamp");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " page and download higher quality tracks for free!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "\u00AB to download the song. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " On touchscreen enabled devices, download should commence automatically.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Once you open one of the links below, if you're on a desktop, right click ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " and select \u00BB");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Save Audio As...");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "table");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Song Name");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "\u00AB to download the song. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " On touchscreen enabled devices, download should commence automatically.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Extension");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "table");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Size");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Length");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "th");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Link");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "tr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "th");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Song Name");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Soul Hole");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "th");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Extension");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, ".mp3");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "th");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Size");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "11.5 MB");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "th");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Length");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "5:01");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "th");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Link");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "tr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Lost Comfort");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, ".mp3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "14.3 MB");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "6:17");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Download");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Download");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "tr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Fallen (demo)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Fallen");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, ".mp3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, ".mp3");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "8.8 MB");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "8.91 MB");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "3:49");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "3:53");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Download");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "a", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Download");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "tr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Soul Hole (demo)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Lost Comfort pt.1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, ".mp3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, ".mp3");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "11.5 MB");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "3.05 MB");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "5:02");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "1:20");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "td");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Download");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Download");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Lost Comfort pt.2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, ".mp3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "11.1 MB");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "4:51");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Download");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Ignorance is Decadence");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, ".mp3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "11.2 MB");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "4:55");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "Download");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -620,7 +631,7 @@ class ContactComponent {
     ngOnInit() { }
 }
 ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(); };
-ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 45, vars: 0, consts: [[1, "content", "center"], [1, "title"], ["target", "_blank", "href", "mailto:duelist.band@gmail.com"], [2, "font-size", "26px"], ["target", "_blank", "href", "https://www.facebook.com/duelistband/"], [1, "fa-brands", "fa-facebook"], ["target", "_blank", "href", "https://www.instagram.com/duelist.band/"], [1, "fa-brands", "fa-instagram"], ["target", "_blank", "href", "https://duelistband.bandcamp.com/"], [1, "fa-brands", "fa-bandcamp"], ["target", "_blank", "href", "https://www.youtube.com/channel/UC3wrj55NAZIV26JMnBqmG7A"], [1, "fa-brands", "fa-youtube"], [2, "width", "70%", "color", "#FE5D26"], ["target", "_blank", "href", "https://www.linkedin.com/in/tin-fioli%C4%87-78748520a/"], [1, "fa-brands", "fa-linkedin"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
+ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 32, vars: 0, consts: [[1, "content", "center"], [1, "title"], ["target", "_blank", "href", "mailto:duelist.band@gmail.com"], [2, "font-size", "3em"], ["target", "_blank", "href", "https://www.facebook.com/duelistband/"], [1, "fa-brands", "fa-facebook", 2, "color", "#2741b4"], ["target", "_blank", "href", "https://www.instagram.com/duelist.band/"], [1, "fa-brands", "fa-instagram", 2, "padding-left", "1em", "color", "#ffffff"], ["target", "_blank", "href", "https://duelistband.bandcamp.com/"], [1, "fa-brands", "fa-bandcamp", 2, "padding-left", "1em", "color", "#2da7cc"], ["target", "_blank", "href", "https://www.youtube.com/channel/UC3wrj55NAZIV26JMnBqmG7A"], [1, "fa-brands", "fa-youtube", 2, "padding-left", "1em"], [2, "width", "70%", "color", "#FE5D26"], [2, "font-size", "4em"], ["target", "_blank", "href", "https://www.linkedin.com/in/tin-fioli%C4%87-78748520a/"], [1, "fa-brands", "fa-linkedin", 2, "color", "#2769b4"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
@@ -639,45 +650,29 @@ ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " we're also checking out your messages and comments on the following pages: ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "i", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, " facebook (duelistband) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "i", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "i", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "i", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "i", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "i", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " Instagram (@duelist.band) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "hr", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "If you like the website design, you can follow and contact me: ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "i", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, " bandcamp (duelistband) ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " YouTube (Duelist) ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "hr", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "If you like the website design, you can follow and contact me: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "p", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "i", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, " LinkedIn (Tin Fioli\u0107) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "p", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "i", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -718,7 +713,7 @@ IntroComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Duelist");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["@font-face {\r\n\tfont-family: teutonic;\r\n\tsrc: url('teutonic1.ttf');\r\n}\r\n\r\n.logo[_ngcontent-%COMP%] {\r\n\tfont-family: teutonic;\r\n\t\r\n\tcolor: #FFFFFF;\r\n\t\r\n\ttext-shadow: 3px 3px 3px #000000,\r\n\t\t\t\t 6px 6px 10px gray;\r\n\t\t\t\t \r\n\t-webkit-user-select: none;   \r\n\tuser-select: none; \r\n\t\r\n\tanimation: staticAnimation 6s infinite, fadeIn 3s 1;\t\r\n}\r\n\r\n.redGlow[_ngcontent-%COMP%] {\r\n    animation: staticAnimation 2s infinite, redGlowAnimation 2s 1, fadeIn 3s 1;\t\r\n}\r\n\r\n.initialLogo[_ngcontent-%COMP%] {\r\n\tdisplay: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    margin-top: 30vh;\r\n\r\n    font-size: 16vh;\r\n}\r\n\r\n@keyframes fadeIn {\r\n    from {\r\n        opacity: 0;\r\n    }\r\n    to {\r\n        opacity: 1;\r\n    }\r\n}\r\n\r\n@keyframes staticAnimation {\r\n\t0%, 90%   {\r\n\t\t\ttext-shadow: 3px 3px 3px #000000,\r\n\t\t\t\t6px 6px 10px gray;\r\n\t\t\ttransform: translate(0, 0);\r\n\t\t }\r\n\t96%, 97%   {\r\n\t\t\ttext-shadow: 3px 3px 3px red,\r\n\t\t\t\t 6px 6px 10px gray;\r\n\t\t\ttransform: translate(-5px, 0);\r\n\t\t }\r\n\t98%, 99%   {\r\n\t\t\r\n\t\t\ttext-shadow: 7px 3px 3px cyan,\r\n\t\t\t\t 6px 6px 10px gray;\r\n\t\t\ttransform: translate(5px, 0);\r\n\t\t\t\r\n\t\t }\r\n\t100%   {\r\n\t\t\ttext-shadow: 0px 3px 3px yellow,\r\n\t\t\t\t 6px 6px 10px gray;\r\n\t\t\ttransform: translate(-5px, 0);\r\n\t\t }\r\n}\r\n\r\n@keyframes redGlowAnimation {\r\n\t0%, 90%   {\r\n\t\t\tfilter: drop-shadow(0px 0px 100px red);\r\n            opacity: 1;\r\n\t\t }\r\n\t96%, 97%   {\r\n\t\t\tfilter: drop-shadow(-50px 0px 100px red);\r\n            opacity: 0.7;\r\n\t\t }\r\n\t98%, 99%   {\r\n\t\t\tfilter: drop-shadow(50px 0px 100px red);\r\n            opacity: 0.4;\r\n\t\t }\r\n\t100%   {\r\n\t\t\tfilter: drop-shadow(-50px 0px 100px red);\r\n            opacity: 0;\r\n\t\t }\r\n}\r\n\r\n@keyframes fadeInText {\r\n\tfrom {\r\n\t\ttransform: translate(-80px, 0);\r\n\t\topacity: 0;\r\n\t}\r\n\t\r\n\tto {\r\n\t\ttransform: translate(0, 0);\r\n\t\topacity: 1;\r\n\t}\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImludHJvLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxxQkFBcUI7Q0FDckIseUJBQXdDO0FBQ3pDOztBQUVBO0NBQ0MscUJBQXFCOztDQUVyQixjQUFjOztDQUVkO3NCQUNxQjs7Q0FFckIseUJBQXlCLEVBQUUsV0FBVyxFQUNkLFlBQVksRUFDYixlQUFlO0NBQ3RDLGlCQUFpQixFQUFFLGFBQWE7O0NBRWhDLG1EQUFtRDtBQUNwRDs7QUFFQTtJQUNJLDBFQUEwRTtBQUM5RTs7QUFFQTtDQUNDLGFBQWE7SUFDVix1QkFBdUI7SUFDdkIsbUJBQW1COztJQUVuQixnQkFBZ0I7O0lBRWhCLGVBQWU7QUFDbkI7O0FBRUE7SUFDSTtRQUNJLFVBQVU7SUFDZDtJQUNBO1FBQ0ksVUFBVTtJQUNkO0FBQ0o7O0FBRUE7Q0FDQztHQUNFO3FCQUNrQjtHQUNsQiwwQkFBMEI7R0FDMUI7Q0FDRjtHQUNFO3NCQUNtQjtHQUNuQiw2QkFBNkI7R0FDN0I7Q0FDRjs7R0FFRTtzQkFDbUI7R0FDbkIsNEJBQTRCOztHQUU1QjtDQUNGO0dBQ0U7c0JBQ21CO0dBQ25CLDZCQUE2QjtHQUM3QjtBQUNIOztBQUVBO0NBQ0M7R0FDRSxzQ0FBc0M7WUFDN0IsVUFBVTtHQUNuQjtDQUNGO0dBQ0Usd0NBQXdDO1lBQy9CLFlBQVk7R0FDckI7Q0FDRjtHQUNFLHVDQUF1QztZQUM5QixZQUFZO0dBQ3JCO0NBQ0Y7R0FDRSx3Q0FBd0M7WUFDL0IsVUFBVTtHQUNuQjtBQUNIOztBQUVBO0NBQ0M7RUFDQyw4QkFBOEI7RUFDOUIsVUFBVTtDQUNYOztDQUVBO0VBQ0MsMEJBQTBCO0VBQzFCLFVBQVU7Q0FDWDtBQUNEIiwiZmlsZSI6ImludHJvLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAZm9udC1mYWNlIHtcclxuXHRmb250LWZhbWlseTogdGV1dG9uaWM7XHJcblx0c3JjOiB1cmwoJy4uLy4uL3RldXRvbmljL3RldXRvbmljMS50dGYnKTtcclxufVxyXG5cclxuLmxvZ28ge1xyXG5cdGZvbnQtZmFtaWx5OiB0ZXV0b25pYztcclxuXHRcclxuXHRjb2xvcjogI0ZGRkZGRjtcclxuXHRcclxuXHR0ZXh0LXNoYWRvdzogM3B4IDNweCAzcHggIzAwMDAwMCxcclxuXHRcdFx0XHQgNnB4IDZweCAxMHB4IGdyYXk7XHJcblx0XHRcdFx0IFxyXG5cdC13ZWJraXQtdXNlci1zZWxlY3Q6IG5vbmU7IC8qIFNhZmFyaSAqLyAgICAgICAgXHJcblx0LW1vei11c2VyLXNlbGVjdDogbm9uZTsgLyogRmlyZWZveCAqL1xyXG5cdC1tcy11c2VyLXNlbGVjdDogbm9uZTsgLyogSUUxMCsvRWRnZSAqL1xyXG5cdHVzZXItc2VsZWN0OiBub25lOyAvKiBTdGFuZGFyZCAqL1xyXG5cdFxyXG5cdGFuaW1hdGlvbjogc3RhdGljQW5pbWF0aW9uIDZzIGluZmluaXRlLCBmYWRlSW4gM3MgMTtcdFxyXG59XHJcblxyXG4ucmVkR2xvdyB7XHJcbiAgICBhbmltYXRpb246IHN0YXRpY0FuaW1hdGlvbiAycyBpbmZpbml0ZSwgcmVkR2xvd0FuaW1hdGlvbiAycyAxLCBmYWRlSW4gM3MgMTtcdFxyXG59XHJcblxyXG4uaW5pdGlhbExvZ28ge1xyXG5cdGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblxyXG4gICAgbWFyZ2luLXRvcDogMzB2aDtcclxuXHJcbiAgICBmb250LXNpemU6IDE2dmg7XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgZmFkZUluIHtcclxuICAgIGZyb20ge1xyXG4gICAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICB9XHJcbiAgICB0byB7XHJcbiAgICAgICAgb3BhY2l0eTogMTtcclxuICAgIH1cclxufVxyXG5cclxuQGtleWZyYW1lcyBzdGF0aWNBbmltYXRpb24ge1xyXG5cdDAlLCA5MCUgICB7XHJcblx0XHRcdHRleHQtc2hhZG93OiAzcHggM3B4IDNweCAjMDAwMDAwLFxyXG5cdFx0XHRcdDZweCA2cHggMTBweCBncmF5O1xyXG5cdFx0XHR0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLCAwKTtcclxuXHRcdCB9XHJcblx0OTYlLCA5NyUgICB7XHJcblx0XHRcdHRleHQtc2hhZG93OiAzcHggM3B4IDNweCByZWQsXHJcblx0XHRcdFx0IDZweCA2cHggMTBweCBncmF5O1xyXG5cdFx0XHR0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNXB4LCAwKTtcclxuXHRcdCB9XHJcblx0OTglLCA5OSUgICB7XHJcblx0XHRcclxuXHRcdFx0dGV4dC1zaGFkb3c6IDdweCAzcHggM3B4IGN5YW4sXHJcblx0XHRcdFx0IDZweCA2cHggMTBweCBncmF5O1xyXG5cdFx0XHR0cmFuc2Zvcm06IHRyYW5zbGF0ZSg1cHgsIDApO1xyXG5cdFx0XHRcclxuXHRcdCB9XHJcblx0MTAwJSAgIHtcclxuXHRcdFx0dGV4dC1zaGFkb3c6IDBweCAzcHggM3B4IHllbGxvdyxcclxuXHRcdFx0XHQgNnB4IDZweCAxMHB4IGdyYXk7XHJcblx0XHRcdHRyYW5zZm9ybTogdHJhbnNsYXRlKC01cHgsIDApO1xyXG5cdFx0IH1cclxufVxyXG5cclxuQGtleWZyYW1lcyByZWRHbG93QW5pbWF0aW9uIHtcclxuXHQwJSwgOTAlICAge1xyXG5cdFx0XHRmaWx0ZXI6IGRyb3Atc2hhZG93KDBweCAwcHggMTAwcHggcmVkKTtcclxuICAgICAgICAgICAgb3BhY2l0eTogMTtcclxuXHRcdCB9XHJcblx0OTYlLCA5NyUgICB7XHJcblx0XHRcdGZpbHRlcjogZHJvcC1zaGFkb3coLTUwcHggMHB4IDEwMHB4IHJlZCk7XHJcbiAgICAgICAgICAgIG9wYWNpdHk6IDAuNztcclxuXHRcdCB9XHJcblx0OTglLCA5OSUgICB7XHJcblx0XHRcdGZpbHRlcjogZHJvcC1zaGFkb3coNTBweCAwcHggMTAwcHggcmVkKTtcclxuICAgICAgICAgICAgb3BhY2l0eTogMC40O1xyXG5cdFx0IH1cclxuXHQxMDAlICAge1xyXG5cdFx0XHRmaWx0ZXI6IGRyb3Atc2hhZG93KC01MHB4IDBweCAxMDBweCByZWQpO1xyXG4gICAgICAgICAgICBvcGFjaXR5OiAwO1xyXG5cdFx0IH1cclxufVxyXG5cclxuQGtleWZyYW1lcyBmYWRlSW5UZXh0IHtcclxuXHRmcm9tIHtcclxuXHRcdHRyYW5zZm9ybTogdHJhbnNsYXRlKC04MHB4LCAwKTtcclxuXHRcdG9wYWNpdHk6IDA7XHJcblx0fVxyXG5cdFxyXG5cdHRvIHtcclxuXHRcdHRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIDApO1xyXG5cdFx0b3BhY2l0eTogMTtcclxuXHR9XHJcbn1cclxuIl19 */"] });
+    } }, styles: ["@font-face {\r\n\tfont-family: teutonic;\r\n\tsrc: url('teutonic1.ttf');\r\n}\r\n\r\n.logo[_ngcontent-%COMP%] {\r\n\tfont-family: teutonic;\r\n\t\r\n\tcolor: #FFFFFF;\r\n\t\r\n\ttext-shadow: 3px 3px 3px #000000,\r\n\t\t\t\t 6px 6px 10px gray;\r\n\t\t\t\t \r\n\t-webkit-user-select: none;   \r\n\tuser-select: none; \r\n\t\r\n\tanimation: staticAnimation 6s infinite, fadeIn 3s 1;\t\r\n}\r\n\r\n.redGlow[_ngcontent-%COMP%] {\r\n    animation: staticAnimation 2s infinite, redGlowAnimation 2s 1, fadeIn 3s 1;\t\r\n}\r\n\r\n.initialLogo[_ngcontent-%COMP%] {\r\n\tdisplay: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    margin-top: 30vh;\r\n\r\n    font-size: 13vh;\r\n}\r\n\r\n@keyframes fadeIn {\r\n    from {\r\n        opacity: 0;\r\n    }\r\n    to {\r\n        opacity: 1;\r\n    }\r\n}\r\n\r\n@keyframes staticAnimation {\r\n\t0%, 90%   {\r\n\t\t\ttext-shadow: 3px 3px 3px #000000,\r\n\t\t\t\t6px 6px 10px gray;\r\n\t\t\ttransform: translate(0, 0);\r\n\t\t }\r\n\t96%, 97%   {\r\n\t\t\ttext-shadow: 3px 3px 3px red,\r\n\t\t\t\t 6px 6px 10px gray;\r\n\t\t\ttransform: translate(-5px, 0);\r\n\t\t }\r\n\t98%, 99%   {\r\n\t\t\r\n\t\t\ttext-shadow: 7px 3px 3px cyan,\r\n\t\t\t\t 6px 6px 10px gray;\r\n\t\t\ttransform: translate(5px, 0);\r\n\t\t\t\r\n\t\t }\r\n\t100%   {\r\n\t\t\ttext-shadow: 0px 3px 3px yellow,\r\n\t\t\t\t 6px 6px 10px gray;\r\n\t\t\ttransform: translate(-5px, 0);\r\n\t\t }\r\n}\r\n\r\n@keyframes redGlowAnimation {\r\n\t0%, 90%   {\r\n\t\t\tfilter: drop-shadow(0px 0px 100px red);\r\n            opacity: 1;\r\n\t\t }\r\n\t96%, 97%   {\r\n\t\t\tfilter: drop-shadow(-50px 0px 100px red);\r\n            opacity: 0.7;\r\n\t\t }\r\n\t98%, 99%   {\r\n\t\t\tfilter: drop-shadow(50px 0px 100px red);\r\n            opacity: 0.4;\r\n\t\t }\r\n\t100%   {\r\n\t\t\tfilter: drop-shadow(-50px 0px 100px red);\r\n            opacity: 0;\r\n\t\t }\r\n}\r\n\r\n@keyframes fadeInText {\r\n\tfrom {\r\n\t\ttransform: translate(-80px, 0);\r\n\t\topacity: 0;\r\n\t}\r\n\t\r\n\tto {\r\n\t\ttransform: translate(0, 0);\r\n\t\topacity: 1;\r\n\t}\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImludHJvLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxxQkFBcUI7Q0FDckIseUJBQXdDO0FBQ3pDOztBQUVBO0NBQ0MscUJBQXFCOztDQUVyQixjQUFjOztDQUVkO3NCQUNxQjs7Q0FFckIseUJBQXlCLEVBQUUsV0FBVyxFQUNkLFlBQVksRUFDYixlQUFlO0NBQ3RDLGlCQUFpQixFQUFFLGFBQWE7O0NBRWhDLG1EQUFtRDtBQUNwRDs7QUFFQTtJQUNJLDBFQUEwRTtBQUM5RTs7QUFFQTtDQUNDLGFBQWE7SUFDVix1QkFBdUI7SUFDdkIsbUJBQW1COztJQUVuQixnQkFBZ0I7O0lBRWhCLGVBQWU7QUFDbkI7O0FBRUE7SUFDSTtRQUNJLFVBQVU7SUFDZDtJQUNBO1FBQ0ksVUFBVTtJQUNkO0FBQ0o7O0FBRUE7Q0FDQztHQUNFO3FCQUNrQjtHQUNsQiwwQkFBMEI7R0FDMUI7Q0FDRjtHQUNFO3NCQUNtQjtHQUNuQiw2QkFBNkI7R0FDN0I7Q0FDRjs7R0FFRTtzQkFDbUI7R0FDbkIsNEJBQTRCOztHQUU1QjtDQUNGO0dBQ0U7c0JBQ21CO0dBQ25CLDZCQUE2QjtHQUM3QjtBQUNIOztBQUVBO0NBQ0M7R0FDRSxzQ0FBc0M7WUFDN0IsVUFBVTtHQUNuQjtDQUNGO0dBQ0Usd0NBQXdDO1lBQy9CLFlBQVk7R0FDckI7Q0FDRjtHQUNFLHVDQUF1QztZQUM5QixZQUFZO0dBQ3JCO0NBQ0Y7R0FDRSx3Q0FBd0M7WUFDL0IsVUFBVTtHQUNuQjtBQUNIOztBQUVBO0NBQ0M7RUFDQyw4QkFBOEI7RUFDOUIsVUFBVTtDQUNYOztDQUVBO0VBQ0MsMEJBQTBCO0VBQzFCLFVBQVU7Q0FDWDtBQUNEIiwiZmlsZSI6ImludHJvLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAZm9udC1mYWNlIHtcclxuXHRmb250LWZhbWlseTogdGV1dG9uaWM7XHJcblx0c3JjOiB1cmwoJy4uLy4uL3RldXRvbmljL3RldXRvbmljMS50dGYnKTtcclxufVxyXG5cclxuLmxvZ28ge1xyXG5cdGZvbnQtZmFtaWx5OiB0ZXV0b25pYztcclxuXHRcclxuXHRjb2xvcjogI0ZGRkZGRjtcclxuXHRcclxuXHR0ZXh0LXNoYWRvdzogM3B4IDNweCAzcHggIzAwMDAwMCxcclxuXHRcdFx0XHQgNnB4IDZweCAxMHB4IGdyYXk7XHJcblx0XHRcdFx0IFxyXG5cdC13ZWJraXQtdXNlci1zZWxlY3Q6IG5vbmU7IC8qIFNhZmFyaSAqLyAgICAgICAgXHJcblx0LW1vei11c2VyLXNlbGVjdDogbm9uZTsgLyogRmlyZWZveCAqL1xyXG5cdC1tcy11c2VyLXNlbGVjdDogbm9uZTsgLyogSUUxMCsvRWRnZSAqL1xyXG5cdHVzZXItc2VsZWN0OiBub25lOyAvKiBTdGFuZGFyZCAqL1xyXG5cdFxyXG5cdGFuaW1hdGlvbjogc3RhdGljQW5pbWF0aW9uIDZzIGluZmluaXRlLCBmYWRlSW4gM3MgMTtcdFxyXG59XHJcblxyXG4ucmVkR2xvdyB7XHJcbiAgICBhbmltYXRpb246IHN0YXRpY0FuaW1hdGlvbiAycyBpbmZpbml0ZSwgcmVkR2xvd0FuaW1hdGlvbiAycyAxLCBmYWRlSW4gM3MgMTtcdFxyXG59XHJcblxyXG4uaW5pdGlhbExvZ28ge1xyXG5cdGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblxyXG4gICAgbWFyZ2luLXRvcDogMzB2aDtcclxuXHJcbiAgICBmb250LXNpemU6IDEzdmg7XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgZmFkZUluIHtcclxuICAgIGZyb20ge1xyXG4gICAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICB9XHJcbiAgICB0byB7XHJcbiAgICAgICAgb3BhY2l0eTogMTtcclxuICAgIH1cclxufVxyXG5cclxuQGtleWZyYW1lcyBzdGF0aWNBbmltYXRpb24ge1xyXG5cdDAlLCA5MCUgICB7XHJcblx0XHRcdHRleHQtc2hhZG93OiAzcHggM3B4IDNweCAjMDAwMDAwLFxyXG5cdFx0XHRcdDZweCA2cHggMTBweCBncmF5O1xyXG5cdFx0XHR0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLCAwKTtcclxuXHRcdCB9XHJcblx0OTYlLCA5NyUgICB7XHJcblx0XHRcdHRleHQtc2hhZG93OiAzcHggM3B4IDNweCByZWQsXHJcblx0XHRcdFx0IDZweCA2cHggMTBweCBncmF5O1xyXG5cdFx0XHR0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNXB4LCAwKTtcclxuXHRcdCB9XHJcblx0OTglLCA5OSUgICB7XHJcblx0XHRcclxuXHRcdFx0dGV4dC1zaGFkb3c6IDdweCAzcHggM3B4IGN5YW4sXHJcblx0XHRcdFx0IDZweCA2cHggMTBweCBncmF5O1xyXG5cdFx0XHR0cmFuc2Zvcm06IHRyYW5zbGF0ZSg1cHgsIDApO1xyXG5cdFx0XHRcclxuXHRcdCB9XHJcblx0MTAwJSAgIHtcclxuXHRcdFx0dGV4dC1zaGFkb3c6IDBweCAzcHggM3B4IHllbGxvdyxcclxuXHRcdFx0XHQgNnB4IDZweCAxMHB4IGdyYXk7XHJcblx0XHRcdHRyYW5zZm9ybTogdHJhbnNsYXRlKC01cHgsIDApO1xyXG5cdFx0IH1cclxufVxyXG5cclxuQGtleWZyYW1lcyByZWRHbG93QW5pbWF0aW9uIHtcclxuXHQwJSwgOTAlICAge1xyXG5cdFx0XHRmaWx0ZXI6IGRyb3Atc2hhZG93KDBweCAwcHggMTAwcHggcmVkKTtcclxuICAgICAgICAgICAgb3BhY2l0eTogMTtcclxuXHRcdCB9XHJcblx0OTYlLCA5NyUgICB7XHJcblx0XHRcdGZpbHRlcjogZHJvcC1zaGFkb3coLTUwcHggMHB4IDEwMHB4IHJlZCk7XHJcbiAgICAgICAgICAgIG9wYWNpdHk6IDAuNztcclxuXHRcdCB9XHJcblx0OTglLCA5OSUgICB7XHJcblx0XHRcdGZpbHRlcjogZHJvcC1zaGFkb3coNTBweCAwcHggMTAwcHggcmVkKTtcclxuICAgICAgICAgICAgb3BhY2l0eTogMC40O1xyXG5cdFx0IH1cclxuXHQxMDAlICAge1xyXG5cdFx0XHRmaWx0ZXI6IGRyb3Atc2hhZG93KC01MHB4IDBweCAxMDBweCByZWQpO1xyXG4gICAgICAgICAgICBvcGFjaXR5OiAwO1xyXG5cdFx0IH1cclxufVxyXG5cclxuQGtleWZyYW1lcyBmYWRlSW5UZXh0IHtcclxuXHRmcm9tIHtcclxuXHRcdHRyYW5zZm9ybTogdHJhbnNsYXRlKC04MHB4LCAwKTtcclxuXHRcdG9wYWNpdHk6IDA7XHJcblx0fVxyXG5cdFxyXG5cdHRvIHtcclxuXHRcdHRyYW5zZm9ybTogdHJhbnNsYXRlKDAsIDApO1xyXG5cdFx0b3BhY2l0eTogMTtcclxuXHR9XHJcbn1cclxuIl19 */"] });
 
 
 /***/ }),
@@ -775,11 +770,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function AlbumComponent_div_39_span_1_Template(rf, ctx) { if (rf & 1) {
+function AlbumComponent_div_13_span_1_Template(rf, ctx) { if (rf & 1) {
     const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AlbumComponent_div_39_span_1_Template_p_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r7); const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); const song_r1 = ctx_r6.$implicit; const i_r2 = ctx_r6.index; const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r5.switchSong(song_r1, i_r2); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AlbumComponent_div_13_span_1_Template_p_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r7); const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); const song_r1 = ctx_r6.$implicit; const i_r2 = ctx_r6.index; const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r5.switchSong(song_r1, i_r2); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -788,11 +783,11 @@ function AlbumComponent_div_39_span_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](song_r1);
 } }
-function AlbumComponent_div_39_span_2_Template(rf, ctx) { if (rf & 1) {
+function AlbumComponent_div_13_span_2_Template(rf, ctx) { if (rf & 1) {
     const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AlbumComponent_div_39_span_2_Template_p_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11); const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); const song_r1 = ctx_r10.$implicit; const i_r2 = ctx_r10.index; const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r9.switchSong(song_r1, i_r2); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AlbumComponent_div_13_span_2_Template_p_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11); const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); const song_r1 = ctx_r10.$implicit; const i_r2 = ctx_r10.index; const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r9.switchSong(song_r1, i_r2); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -801,10 +796,10 @@ function AlbumComponent_div_39_span_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](song_r1);
 } }
-function AlbumComponent_div_39_Template(rf, ctx) { if (rf & 1) {
+function AlbumComponent_div_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AlbumComponent_div_39_span_1_Template, 3, 1, "span", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, AlbumComponent_div_39_span_2_Template, 3, 1, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AlbumComponent_div_13_span_1_Template, 3, 1, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, AlbumComponent_div_13_span_2_Template, 3, 1, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const song_r1 = ctx.$implicit;
@@ -816,7 +811,7 @@ function AlbumComponent_div_39_Template(rf, ctx) { if (rf & 1) {
 } }
 class AlbumComponent {
     constructor() {
-        this.songs = ["Soul Hole", "Fallen", "Lost Comfort pt.1", "Lost Comfort pt.2", "Ignorance is Decadance"];
+        this.songs = ["Soul Hole", "Fallen", "Lost Comfort pt.1", "Lost Comfort pt.2", "Ignorance is Decadence"];
         this.songLinks = [
             "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Soul%20Hole.mp3",
             "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Fallen.mp3",
@@ -857,7 +852,7 @@ class AlbumComponent {
         this.falliden = [
             {
                 url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ID.mp3",
-                title: "Ignorance is Decadance",
+                title: "Ignorance is Decadence",
                 cover: ""
             }
         ];
@@ -869,60 +864,39 @@ class AlbumComponent {
     }
 }
 AlbumComponent.ɵfac = function AlbumComponent_Factory(t) { return new (t || AlbumComponent)(); };
-AlbumComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlbumComponent, selectors: [["app-album"]], decls: 40, vars: 4, consts: [[1, "content", "center"], [1, "title"], ["target", "_blank", "href", "https://kristijantackovic.wixsite.com/kikimarcello"], [1, "title2"], [3, "name", "link"], [1, "chooseSong"], ["class", "songList", 4, "ngFor", "ngForOf"], [1, "songList"], [4, "ngIf"], [1, "selectedSong", 3, "click"], [3, "click"]], template: function AlbumComponent_Template(rf, ctx) { if (rf & 1) {
+AlbumComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlbumComponent, selectors: [["app-album"]], decls: 24, vars: 4, consts: [[1, "content", "center"], [1, "title"], [1, "title2"], [3, "name", "link"], [1, "chooseSong"], ["class", "songList", 4, "ngFor", "ngForOf"], ["target", "_blank", "href", "https://kristijantackovic.wixsite.com/kikimarcello"], [1, "songList"], [4, "ngIf"], [1, "selectedSong", 3, "click"], [3, "click"]], template: function AlbumComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Downfall");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Downfall EP (demo)");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "We are currently recording our first EP, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Downfall");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h1", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, ". ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "app-player", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " As of right now, we have released a finished single ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Lost Comfort");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, AlbumComponent_div_13_Template, 3, 2, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " and two demos, titled ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Soul Hole");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "The songs were written by band members and have been mixed/mastered by ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Kiki Marcello");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Fallen");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, ".");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, ".");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "The songs were written by band members and have been mixed/mastered by ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Kiki Marcello");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, ".");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "h1", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "app-player", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](39, AlbumComponent_div_39_Template, 3, 2, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.selectedSong);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("name", ctx.songs[ctx.selectedSongIndex])("link", ctx.songLinks[ctx.selectedSongIndex]);

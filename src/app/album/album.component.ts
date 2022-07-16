@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlbumComponent implements OnInit {
 
-  songs: string[] = ["Soul Hole", "Fallen", "Lost Comfort pt.1", "Lost Comfort pt.2", "Ignorance is Decadance"];
+  songs: string[] = ["Soul Hole", "Fallen", "Lost Comfort pt.1", "Lost Comfort pt.2", "Ignorance is Decadence"];
   songLinks: string[] = [
     "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Soul%20Hole.mp3",
     "https://raw.githubusercontent.com/TinFiolic/Duelist/main/Fallen.mp3",
@@ -58,7 +58,7 @@ export class AlbumComponent implements OnInit {
   falliden = [
     {
       url: "https://raw.githubusercontent.com/TinFiolic/Duelist/main/ID.mp3",
-      title: "Ignorance is Decadance",
+      title: "Ignorance is Decadence",
       cover: ""
     }
   ];
