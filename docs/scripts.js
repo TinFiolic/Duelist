@@ -24,4 +24,3 @@ function between(time, one, two) {
         return false;
 }
 ;
-//# sourceMappingURL=scripts.js.map

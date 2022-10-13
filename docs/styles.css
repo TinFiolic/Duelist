@@ -11,10 +11,37 @@ html {
 	background-color: black;
 	background-size: cover;
 
-	animation-name: backgroundAnimation;
-	animation-duration: 60s;
-	animation-iteration-count: infinite;
+	-webkit-animation-name: backgroundAnimation;
+
+	        animation-name: backgroundAnimation;
+	-webkit-animation-duration: 60s;
+	        animation-duration: 60s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
 }
+
+@-webkit-keyframes backgroundAnimation {
+	0% {
+		background-position-x: center;
+		background-position-y: center;
+	  }
+	  25% {
+		background-position-x: 20%;
+		background-position-y: 20%;
+	  }
+	  50% {
+		background-position-x: 40%;
+		background-position-y: 20%;
+	  }
+	  75% {
+		background-position-x: 0%;
+		background-position-y: 0%;
+	  }
+	  100% {
+		background-position-x: center;
+		background-position-y: center;
+	  }
+  }
 
 @keyframes backgroundAnimation {
 	0% {
@@ -38,5 +65,3 @@ html {
 		background-position-y: center;
 	  }
   }
-
-/*# sourceMappingURL=styles.css.map*/
