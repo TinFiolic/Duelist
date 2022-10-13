@@ -18,6 +18,8 @@ export class AlbumComponent implements OnInit {
 
   selectedSong: string = "Soul Hole";
   selectedSongIndex: number = 0;
+  album: number = 0;
+  live: number = 0;
 
   constructor() { }
 

@@ -77,6 +77,11 @@ a {
   background-color: #FE5D26;
 }
 
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
 @media only screen and (max-width: 700px) { 
     p {
         font-family: 'Barlow', sans-serif;
@@ -105,5 +110,14 @@ a {
       background-color: rgba(0, 0, 0, 0.322);
     
       border-radius: 10px;
+    }
+
+    .coverArt {
+      display: none;
+    }
+
+    iframe {
+      width: 250px;
+      height: 120px;
     }
 }

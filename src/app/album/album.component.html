@@ -1,21 +1,64 @@
 <div class="content center"> <br> <br>
-    <h1 class="title">Downfall EP (demo)</h1> <br>
+    <div *ngIf="album == 0 && live == 0">
+        <table> 
+            <tr>
+                <th></th> <th></th>
+            </tr>
+            <tr>
+                <td class="coverArt">
+                    <img (click)="album = 1" src="https://raw.githubusercontent.com/TinFiolic/Duelist/main/cover.png" width="70%" height="70%" style="border-radius: 2%; box-shadow: 10px 10px #000000;"/>
+                </td>
+                <td>
+                    <div style="font-family: 'Open Sans Condensed';">
+                        <h1 class="title2">Downfall</h1> <br>
 
-    <h1 class="title2">{{selectedSong}}</h1> <br>
+                        <p>Downfall is a debut EP comprised of songs written from 2019
+                        all the way to 2021. It was recorded throughout early 2022 and released in September of the same year.</p> <br>
 
-    <app-player [name]="songs[selectedSongIndex]" [link]="songLinks[selectedSongIndex]"></app-player> <br> <br> 
+                        <p>You can listen to <b>Downfall</b> on every major streaming platrform and on our website!</p> <br> <br>
 
-    <div class="chooseSong">
-        <div class="songList" *ngFor="let song of songs; let i = index">
-            <span *ngIf="selectedSong == song">
-                <p (click)="switchSong(song, i)" class="selectedSong">{{song}}</p>
-            </span>
-            <span *ngIf="selectedSong !== song">
-                <p (click)="switchSong(song, i)">{{song}}</p>
-            </span>
-        </div>
+                        <p (click)="album = 1"><span style="padding-right: 0.5em;">Listen to Downfall</span> <span style="color: red;">ᗒ</span></p> <br>
+                        <p (click)="live = 1"><span style="padding-right: 0.5em;">Watch live clips</span> <span style="color: red;">ᗒ</span></p>
+                    </div>
+                </td>
+            </tr>
+        </table>       
     </div>
-    <br><br>
-    <p>The songs were written by band members and have been mixed/mastered by <a target="_blank" href="https://kristijantackovic.wixsite.com/kikimarcello">Kiki Marcello</a>.</p> <br> <br> <br>
-    
+
+    <div *ngIf="live == 1">
+        <h1 class="title">September 5, 2022 - Bedekovčina</h1> <br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pqb2nFMjCvE" title="Duelist Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/p60CNaWULaM" title="Duelist Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DrungfeNTbE" title="Duelist Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4bwABlTuOuU" title="Duelist Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <p style="float: left;" (click)="live = 0"><span style="color: red;">ᗕ</span> <span style="padding-left: 0.5em;">back to discography</span></p>
+    </div>
+
+    <!--If Downfall selected-->
+    <div *ngIf="album == 1">
+        <h1 class="title">Downfall EP</h1> <br>
+
+        <h1 class="title2">{{selectedSong}}</h1> <br>
+
+        <app-player [name]="songs[selectedSongIndex]" [link]="songLinks[selectedSongIndex]"></app-player> <br> <br> 
+
+        <div class="chooseSong">
+            <div class="songList" *ngFor="let song of songs; let i = index">
+                <span *ngIf="selectedSong == song">
+                    <p (click)="switchSong(song, i)" class="selectedSong">{{song}}</p>
+                </span>
+                <span *ngIf="selectedSong !== song">
+                    <p (click)="switchSong(song, i)">{{song}}</p>
+                </span>
+            </div>
+        </div>
+        <br><br>
+        <p>The songs were written by band members and have been mixed/mastered by <a target="_blank" href="https://kristijantackovic.wixsite.com/kikimarcello">Kiki Marcello</a>.</p> <br> <br>
+        <p style="float: left;" (click)="album = 0"><span style="color: red;">ᗕ</span> <span style="padding-left: 0.5em;">back to discography</span></p>
+    </div>
 </div> 
