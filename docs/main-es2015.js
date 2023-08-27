@@ -827,19 +827,33 @@ function AlbumComponent_div_3_Template(rf, ctx) { if (rf & 1) {
 function AlbumComponent_div_4_Template(rf, ctx) { if (rf & 1) {
     const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "All filmed performances:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "List of live shows:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "iframe", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AlbumComponent_div_4_Template_p_click_6_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r7.live = 0; });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "span", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "\u15D5");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "September 7, 2022 - Bedekov\u010Dina, Croatia");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "span", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "back to discography");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "March 9, 2023 - Zagreb, Croatia (Hard Place)");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "May 26, 2023 - \u010Cakovec, Croatia");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "August 23, 2023 - Zagreb, Croatia (Mo\u010Dvara)");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "iframe", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AlbumComponent_div_4_Template_p_click_16_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r7.live = 0; });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "\u15D5");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "span", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "back to discography");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -953,12 +967,12 @@ class AlbumComponent {
     }
 }
 AlbumComponent.ɵfac = function AlbumComponent_Factory(t) { return new (t || AlbumComponent)(); };
-AlbumComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlbumComponent, selectors: [["app-album"]], decls: 6, vars: 3, consts: [[1, "content", "center"], [4, "ngIf"], [1, "coverArt"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/cover.png", "width", "70%", "height", "70%", 2, "border-radius", "2%", "box-shadow", "10px 10px #000000", 3, "click"], [2, "font-family", "Open Sans Condensed"], [1, "title2"], [3, "click"], [2, "padding-right", "0.5em", "color", "#FE5D26"], [2, "color", "red"], [1, "title"], ["width", "560", "height", "315", "src", "https://youtu.be/6O5KxF2HPQM?si=PJawayY7US0QG-3U", "title", "Duelist Live", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [2, "float", "left", 3, "click"], [2, "padding-left", "0.5em", "color", "#FE5D26"], [3, "name", "link"], [1, "chooseSong"], ["class", "songList", 4, "ngFor", "ngForOf"], ["target", "_blank", "href", "https://kristijantackovic.wixsite.com/kikimarcello"], [1, "songList"], [1, "selectedSong", 3, "click"]], template: function AlbumComponent_Template(rf, ctx) { if (rf & 1) {
+AlbumComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlbumComponent, selectors: [["app-album"]], decls: 6, vars: 3, consts: [[1, "content", "center"], [4, "ngIf"], [1, "coverArt"], ["src", "https://raw.githubusercontent.com/TinFiolic/Duelist/main/cover.png", "width", "70%", "height", "70%", 2, "border-radius", "2%", "box-shadow", "10px 10px #000000", 3, "click"], [2, "font-family", "Open Sans Condensed"], [1, "title2"], [3, "click"], [2, "padding-right", "0.5em", "color", "#FE5D26"], [2, "color", "red"], [1, "title"], ["width", "560", "height", "315", "src", "https://youtube.com/embed/videoseries?list=PLYt3EG0URm5QYY1risOCnpoI0RN09pFco", "title", "Duelist Live", "frameborder", "0", "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", "allowfullscreen", ""], [2, "float", "left", 3, "click"], [2, "padding-left", "0.5em", "color", "#FE5D26"], [3, "name", "link"], [1, "chooseSong"], ["class", "songList", 4, "ngFor", "ngForOf"], ["target", "_blank", "href", "https://kristijantackovic.wixsite.com/kikimarcello"], [1, "songList"], [1, "selectedSong", 3, "click"]], template: function AlbumComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, AlbumComponent_div_3_Template, 34, 0, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, AlbumComponent_div_4_Template, 11, 0, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, AlbumComponent_div_4_Template, 21, 0, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, AlbumComponent_div_5_Template, 26, 4, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
